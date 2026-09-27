@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T12:32:27.026Z",
+  "updated": "2026-09-27T15:52:36.514Z",
   "skills": [
     {
       "kind": "skill",
@@ -23,7 +23,7 @@
         "1.0.0"
       ],
       "hash": "e8df7ee18eb0e05902128bd7330352751df57321016c5eb5da6a1809798bbe48",
-      "published": 1790512347023
+      "published": 0
     }
   ],
   "mcp": [
@@ -50,7 +50,7 @@
         "1.0.0"
       ],
       "hash": "879bc99f2860d074103816563d0246506b1cba549ef8b52b4f40709c7e3df0ea",
-      "published": 1790512347025
+      "published": 0
     }
   ]
 }
