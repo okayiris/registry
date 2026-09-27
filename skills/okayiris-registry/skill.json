@@ -1,0 +1,18 @@
+{
+  "name": "okayiris-registry",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too.",
+  "tags": [
+    "knowledge",
+    "sharing",
+    "research"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://skills.okayiris.com/docs.md",
+    "https://mcp.okayiris.com/docs.md",
+    "https://plugins.okayiris.com/docs.md"
+  ]
+}

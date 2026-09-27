@@ -1,0 +1,40 @@
+{
+  "name": "registry",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Search the shared skills and read an MCP server's entry, so an assistant can use what every other house already reconned.",
+  "tags": [
+    "knowledge",
+    "developer"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://skills.okayiris.com/docs.md",
+    "https://mcp.okayiris.com/docs.md",
+    "https://modelcontextprotocol.io/specification"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "search_skills",
+      "description": "Find shared skills by word and tag."
+    },
+    {
+      "name": "read_skill",
+      "description": "Read one skill in full, with its sources."
+    },
+    {
+      "name": "list_mcp",
+      "description": "Find MCP servers in the shared directory."
+    },
+    {
+      "name": "read_mcp",
+      "description": "Read one server's entry: transport, tools, permissions."
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "updated": "2026-09-27T12:32:27.026Z",
+  "skills": [
+    {
+      "kind": "skill",
+      "name": "okayiris-registry",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "knowledge",
+        "sharing",
+        "research"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://skills.okayiris.com/docs.md",
+        "https://mcp.okayiris.com/docs.md",
+        "https://plugins.okayiris.com/docs.md"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "e8df7ee18eb0e05902128bd7330352751df57321016c5eb5da6a1809798bbe48",
+      "published": 1790512347023
+    }
+  ],
+  "mcp": [
+    {
+      "kind": "mcp",
+      "name": "registry",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "Search the shared skills and read an MCP server's entry, so an assistant can use what every other house already reconned.",
+      "license": "MIT",
+      "tags": [
+        "knowledge",
+        "developer"
+      ],
+      "permissions": [
+        "internet"
+      ],
+      "sources": [
+        "https://skills.okayiris.com/docs.md",
+        "https://mcp.okayiris.com/docs.md",
+        "https://modelcontextprotocol.io/specification"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "879bc99f2860d074103816563d0246506b1cba549ef8b52b4f40709c7e3df0ea",
+      "published": 1790512347025
+    }
+  ]
+}
