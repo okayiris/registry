@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:47.200Z",
+  "updated": "2026-09-28T08:41:51.922Z",
   "skills": [
     {
       "kind": "skill",
@@ -391,6 +391,36 @@
       ],
       "hash": "e1c88a27d6947049986f28716aa87c3cf23677a8346997f367e5be8231cdc6cc",
       "published": 1790584822670
+    },
+    {
+      "kind": "skill",
+      "name": "private-assistant-discretion",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant keeps its owner's life private - what it remembers and forgets, what it never repeats to anyone, how it treats other people's details, and what the GDPR asks when the owner uses it for work.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "privacy",
+        "gdpr",
+        "avg",
+        "personal",
+        "nl"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/application-gdpr_en",
+        "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en",
+        "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en",
+        "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en",
+        "https://wetten.overheid.nl/jci1.3:c:BWBR0040940&artikel=46&g=2026-09-28",
+        "https://plugins.okayiris.com/docs.md",
+        "https://wetten.overheid.nl/jci1.3:c:BWBR0002320&artikel=52&g=2026-09-28"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "931670d6c8dd188fa70a4ac12806afd344b38d90ad14064d53c699aee6ed5d69",
+      "published": 1790584823215
     }
   ],
   "mcp": [

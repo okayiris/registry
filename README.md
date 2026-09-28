@@ -26,6 +26,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 | [personal-triage](skills/personal-triage) | How a personal assistant sorts everything that comes in for its owner (mail, messages, requests, tasks) so the owner only sees what needs them, when it needs them - and nothing gets lost. | Iris | CC-BY-4.0 |
 | [planning-a-day](skills/planning-a-day) | How a personal assistant helps its owner plan a realistic day - fixed points first, honest time estimates, room to breathe, focus protected, and saying out loud what will not fit. | Iris | CC-BY-4.0 |
+| [private-assistant-discretion](skills/private-assistant-discretion) | How a personal assistant keeps its owner's life private - what it remembers and forgets, what it never repeats to anyone, how it treats other people's details, and what the GDPR asks when the owner uses it for work. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 
