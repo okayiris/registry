@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:42.596Z",
+  "updated": "2026-09-28T08:41:47.200Z",
   "skills": [
     {
       "kind": "skill",
@@ -361,6 +361,36 @@
       ],
       "hash": "0bd6962e47a9473676726c752804f6ca87608dcdcdbd55d1c8ca3503e436499a",
       "published": 1790584822104
+    },
+    {
+      "kind": "skill",
+      "name": "planning-a-day",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant helps its owner plan a realistic day - fixed points first, honest time estimates, room to breathe, focus protected, and saying out loud what will not fit.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "productivity",
+        "planning",
+        "calendar",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16187858/",
+        "https://pubmed.ncbi.nlm.nih.gov/18604961/",
+        "https://users.wfu.edu/masicaej/MasicampoBaumeister2011JPSP.pdf",
+        "https://ics.uci.edu/~gmark/chi08-mark.pdf",
+        "https://www.thuisarts.nl/stress/ik-wil-beter-omgaan-met-stress",
+        "https://www.thuisarts.nl/stress/ik-wil-me-beter-kunnen-ontspannen",
+        "https://plugins.okayiris.com/apps/travel",
+        "https://plugins.okayiris.com/apps/google-workspace"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "e1c88a27d6947049986f28716aa87c3cf23677a8346997f367e5be8231cdc6cc",
+      "published": 1790584822670
     }
   ],
   "mcp": [
