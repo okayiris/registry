@@ -24,6 +24,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [learning-something-new](skills/learning-something-new) | How a personal assistant teaches its owner something new so it sticks - starting from why they want it, small steps, practice by recalling instead of rereading, spacing the practice over days, and checking understanding. | Iris | CC-BY-4.0 |
 | [making-decisions](skills/making-decisions) | How a personal assistant helps its owner make a decision without making it for them - how much care it deserves, laying out the options with their pros and cons, what they mean for this owner, and checking against the opposite. | Iris | CC-BY-4.0 |
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
+| [personal-triage](skills/personal-triage) | How a personal assistant sorts everything that comes in for its owner (mail, messages, requests, tasks) so the owner only sees what needs them, when it needs them - and nothing gets lost. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:37.639Z",
+  "updated": "2026-09-28T08:41:42.596Z",
   "skills": [
     {
       "kind": "skill",
@@ -331,6 +331,36 @@
       ],
       "hash": "63e764f7c444b4570553316bafd13adbbe879ace1777eaea063a66ecca9f6c3d",
       "published": 1790584821502
+    },
+    {
+      "kind": "skill",
+      "name": "personal-triage",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant sorts everything that comes in for its owner (mail, messages, requests, tasks) so the owner only sees what needs them, when it needs them - and nothing gets lost.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "productivity",
+        "inbox",
+        "triage",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://gettingthingsdone.com/what-is-gtd/",
+        "https://ics.uci.edu/~gmark/chi08-mark.pdf",
+        "https://quoteinvestigator.com/2014/05/09/urgent/",
+        "https://www.fraudehelpdesk.nl/fraude/beoordeel-verdachte-e-mail/",
+        "https://veiliginternetten.nl/hoe-herken-ik-een-nepmail-of-nepbericht/",
+        "https://plugins.okayiris.com/apps/mailbox",
+        "https://plugins.okayiris.com/apps/whatsapp",
+        "https://plugins.okayiris.com/apps/google-workspace"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "0bd6962e47a9473676726c752804f6ca87608dcdcdbd55d1c8ca3503e436499a",
+      "published": 1790584822104
     }
   ],
   "mcp": [
