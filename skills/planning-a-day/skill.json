@@ -1,0 +1,24 @@
+{
+  "name": "planning-a-day",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant helps its owner plan a realistic day - fixed points first, honest time estimates, room to breathe, focus protected, and saying out loud what will not fit.",
+  "tags": [
+    "productivity",
+    "planning",
+    "calendar",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://doi.org/10.1037/0033-2909.131.5.761",
+    "https://doi.org/10.3758/mc.36.4.791",
+    "https://users.wfu.edu/masicaej/MasicampoBaumeister2011JPSP.pdf",
+    "https://ics.uci.edu/~gmark/chi08-mark.pdf",
+    "https://www.thuisarts.nl/stress/ik-wil-beter-omgaan-met-stress",
+    "https://www.thuisarts.nl/stress/ik-wil-me-beter-kunnen-ontspannen",
+    "https://plugins.okayiris.com/apps/travel",
+    "https://plugins.okayiris.com/apps/google-workspace"
+  ]
+}

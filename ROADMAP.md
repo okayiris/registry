@@ -30,6 +30,7 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
 - [x] `dutch-vat-zzp` 1.0.0 and `acting-on-behalf` 1.0.0 (skills).
 - [x] `asking-good-questions`, `personal-triage` and `calm-and-rest` 1.0.0 (skills), the first of the
   personal and soft skills.
+- [x] `daily-and-weekly-review`, `planning-a-day` and `private-assistant-discretion` 1.0.0 (skills).
 
 All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
 modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
@@ -100,8 +101,8 @@ where the research starts.
 |---|---|---|---|
 | 19 | ~~`asking-good-questions`~~ (done) | Doorvragen: one open question at a time, summarising back, asking what is really meant before acting, knowing when to stop asking. | Motivational interviewing (OARS), SAMHSA TIP 35 |
 | 20 | ~~`personal-triage`~~ (done) | Sorting what comes in (mail, messages, requests, tasks) into now, today, this week, someone else, or never, and telling the owner only what needs them. | Getting Things Done (clarify, two-minute rule), the urgent/important matrix |
-| 21 | `daily-and-weekly-review` | A short start of the day and a weekly review: what is open, what is next, what can go. | GTD weekly review |
-| 22 | `planning-a-day` | A realistic day: fixed appointments first, time blocks, buffers, energy, and saying what will not fit. | Timeboxing, planning-fallacy research |
+| 21 | ~~`daily-and-weekly-review`~~ (done) | A short start of the day and a weekly review: what is open, what is next, what can go. | GTD weekly review |
+| 22 | ~~`planning-a-day`~~ (done) | A realistic day: fixed appointments first, time blocks, buffers, energy, and saying what will not fit. | Timeboxing, planning-fallacy research |
 | 23 | `coaching-conversation` | Helping the owner think instead of telling them: goal, reality, options, will (GROW), and not giving advice too early. | ICF core competencies, GROW model |
 | 24 | `learning-something-new` | Teaching the owner a topic: tied to why they want it, small steps, retrieval practice, spacing, checking understanding. | Dunlosky et al. (2013), learning-sciences summaries |
 | 25 | `building-habits` | Small habits, when-then plans, tracking without guilt, restarting after a lapse. | Implementation intentions (Gollwitzer), habit formation (Lally et al.) |
@@ -109,7 +110,7 @@ where the research starts.
 | 27 | ~~`calm-and-rest`~~ (done) | Rest, sleep and stress in plain words, what an assistant can do (fewer interruptions, a quieter day) and where it must refer: the GP, and 113 in a crisis. Never therapy. | Thuisarts.nl (NHG), 113 Zelfmoordpreventie |
 | 28 | `making-decisions` | Reversible or not, what would change the owner's mind, a pre-mortem, and leaving the choice with the owner. | Decision research (pre-mortem, Klein) |
 | 29 | `difficult-conversations` | Preparing a hard talk or message: observation, feeling, need, request; giving and receiving feedback. | Nonviolent Communication (CNVC) |
-| 30 | `private-assistant-discretion` | What an assistant remembers, what it forgets on request, what it never repeats, and how it keeps one person's life private from everyone else. | AVG/GDPR, Autoriteit Persoonsgegevens |
+| 30 | ~~`private-assistant-discretion`~~ (done) | What an assistant remembers, what it forgets on request, what it never repeats, and how it keeps one person's life private from everyone else. | AVG/GDPR, Autoriteit Persoonsgegevens |
 
 ### Craft skills
 
@@ -143,7 +144,8 @@ the plugin's own database, no bank API), `notes` (a Markdown folder to search an
    entry faster and better sourced.
 3. The skills next to existing plugins: `dutch-vat-zzp` and `acting-on-behalf` are done.
 4. The personal and soft skills: `asking-good-questions`, `personal-triage` and `calm-and-rest` are
-   done; next `daily-and-weekly-review`, `planning-a-day` and `private-assistant-discretion`.
+   done, and so are `daily-and-weekly-review`, `planning-a-day` and `private-assistant-discretion`;
+   next `coaching-conversation`, `learning-something-new` and `encouragement`.
 5. Then the rest of the list, alternating craft skills with the Dutch ones.
 
 One house may have at most 5 versions waiting for review per registry, so hand them in in small batches.
