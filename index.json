@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:10.058Z",
+  "updated": "2026-09-28T08:41:14.770Z",
   "skills": [
     {
       "kind": "skill",
@@ -167,6 +167,31 @@
       ],
       "hash": "2a7775fb906aa6abd84207ff7013dda0a8ea24401b7900b9132caacdb974e43b",
       "published": 1790584818133
+    },
+    {
+      "kind": "skill",
+      "name": "difficult-conversations",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant helps its owner prepare a hard conversation or message - saying what happened without blame, what they feel and need, and a clear request - and when a conflict is no longer a conversation but a safety matter.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "communication",
+        "conflict",
+        "feedback",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://www.cnvc.org/about/purpose-of-nvc",
+        "https://www.nonviolentcommunication.com/pdf_files/4_components_of_NVC.pdf",
+        "https://www.rijksoverheid.nl/onderwerpen/huiselijk-geweld/vraag-en-antwoord/wat-moet-ik-doen-bij-huiselijk-geweld"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "ae49ccaa92ef45e896940a8fce52a57a69aae3f9ce9ca6c606e41eb081e9a4a6",
+      "published": 1790584818663
     },
     {
       "kind": "skill",
