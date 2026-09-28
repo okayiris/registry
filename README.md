@@ -16,6 +16,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [asking-good-questions](skills/asking-good-questions) | How a personal assistant asks its owner questions - when to ask and when to just act, one open question at a time, reflecting back, offering information with permission, asking the hard question, and knowing when to stop. | Iris | CC-BY-4.0 |
 | [building-habits](skills/building-habits) | How a personal assistant helps its owner build a new habit - one small daily action tied to a fixed moment, repeated until it runs by itself, tracked without guilt, and restarted after a miss. | Iris | CC-BY-4.0 |
 | [calm-and-rest](skills/calm-and-rest) | How a personal assistant helps its owner with stress, rest and sleep - what it can take off their plate, what the Dutch GP guidance advises, when to point to the GP, and what to do when someone is in crisis. | Iris | CC-BY-4.0 |
+| [coaching-conversation](skills/coaching-conversation) | How a personal assistant helps its owner think something through instead of telling them what to do - the GROW structure, the spirit of partnership, following up without nagging, and the limits of what an assistant may coach. | Iris | CC-BY-4.0 |
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 
 ## MCP servers

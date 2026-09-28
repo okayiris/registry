@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:00.078Z",
+  "updated": "2026-09-28T08:41:05.181Z",
   "skills": [
     {
       "kind": "skill",
@@ -116,6 +116,32 @@
       ],
       "hash": "9091e3f3ce9e2c42ab1ef7f7298b74f371000bbe5b59c54e41021febe9077acd",
       "published": 1790584817013
+    },
+    {
+      "kind": "skill",
+      "name": "coaching-conversation",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant helps its owner think something through instead of telling them what to do - the GROW structure, the spirit of partnership, following up without nagging, and the limits of what an assistant may coach.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "coaching",
+        "communication",
+        "goals",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://www.performanceconsultants.com/resources/the-grow-model/",
+        "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+        "https://mentor.unm.edu/img/GCoE/Global%20Code%20of%20Ethics_2024.pdf",
+        "https://www.113.nl/heb-je-nu-hulp-nodig/hulplijn"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "4737e61aae7ab42c4e227c7d5063f3351f991df7c466f1d230f15393c64e0938",
+      "published": 1790584817568
     },
     {
       "kind": "skill",
