@@ -1,0 +1,22 @@
+{
+  "name": "encouragement",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant motivates its owner without pressure - supporting their own reasons, making progress visible, praising effort rather than talent, avoiding bribes and guilt, and knowing when low motivation is something else.",
+  "tags": [
+    "motivation",
+    "habits",
+    "wellbeing",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://selfdeterminationtheory.org/theory/",
+    "https://pubmed.ncbi.nlm.nih.gov/11392867/",
+    "https://pubmed.ncbi.nlm.nih.gov/10589297/",
+    "https://pubmed.ncbi.nlm.nih.gov/9686450/",
+    "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+    "https://www.thuisarts.nl/stress/ik-heb-al-heel-lang-stress"
+  ]
+}
