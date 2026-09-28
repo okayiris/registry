@@ -26,7 +26,7 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
 - [x] `writing-an-mcp-server` 1.0.0 (skill): the two protocol eras, stdio pitfalls, tool errors against
   protocol errors, permissions, testing and review.
 - [x] `web-fetch` 1.0.0 (MCP): one public page as Markdown, refusing addresses inside a network.
-- [x] `wetten` 1.0.0 (MCP): Dutch laws and articles as in force on a date, from the BWB open data.
+- [x] `dutch-laws` 1.0.0 (MCP): Dutch laws and articles as in force on a date, from the BWB open data.
 
 All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
 modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
@@ -39,7 +39,7 @@ All read-only, no key, open data: they need only `internet`, which makes them ea
 | # | Name | Category | What it does | Permissions |
 |---|---|---|---|---|
 | 1 | ~~`web-fetch`~~ (done) | knowledge | Read one public page as Markdown, for the research step of a skill. The `search` plugin finds pages; nothing reads them yet. | internet |
-| 2 | ~~`wetten`~~ (done) | knowledge | Look up Dutch legislation and a specific article on wetten.overheid.nl, with the version valid on a given date. Backs every NL skill with a primary source. | internet |
+| 2 | ~~`dutch-laws`~~ (done) | knowledge | Look up Dutch legislation and a specific article on wetten.overheid.nl, with the version valid on a given date. Backs every NL skill with a primary source. | internet |
 | 3 | `pdok` | knowledge | Addresses, postcodes and buildings from the BAG through PDOK's locatieserver. | internet |
 | 4 | `rdw` | knowledge | Vehicle data by licence plate from the RDW open data. | internet |
 | 5 | `cbs` | knowledge | Figures from CBS StatLine (inflation, population, prices) with the table they came from. | internet |
@@ -95,9 +95,9 @@ the plugin's own database, no bank API), `notes` (a Markdown folder to search an
 ## Order of work
 
 1. `registry` 1.1.0 and `okayiris-registry` 1.1.0 (done, waiting for review).
-2. `writing-an-mcp-server`, `web-fetch` and `wetten` (done, waiting for review): they make every later
+2. `writing-an-mcp-server`, `web-fetch` and `dutch-laws` (done, waiting for review): they make every later
    entry faster and better sourced.
 3. The skills next to existing plugins, starting with `dutch-vat-zzp` and `acting-on-behalf`, each citing
-   the articles it relies on through `wetten`.
+   the articles it relies on through `dutch-laws`.
 
 One house may have at most 5 versions waiting for review per registry, so hand them in in small batches.

@@ -1,5 +1,5 @@
 {
-  "name": "wetten",
+  "name": "dutch-laws",
   "version": "1.0.0",
   "author": "Iris",
   "description": "Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite.",

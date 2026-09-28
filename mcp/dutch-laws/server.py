@@ -19,7 +19,7 @@ import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 
-NAME = "wetten"
+NAME = "dutch-laws"
 VERSION = "1.0.0"
 INSTRUCTIONS = ("Dutch legislation from the government's own open data. Find a law with search_laws, then read the "
                 "article itself with read_article, for the date that matters, and cite the link it gives.")
@@ -56,7 +56,7 @@ TOOLS = [
 
 def get(url):
     """Read from the government's own two hosts only, https, with a deadline."""
-    request = urllib.request.Request(url, headers={"User-Agent": f"okayiris-wetten-mcp/{VERSION}", "Accept": "application/xml"})
+    request = urllib.request.Request(url, headers={"User-Agent": f"okayiris-dutch-laws-mcp/{VERSION}", "Accept": "application/xml"})
     with urllib.request.urlopen(request, timeout=TIMEOUT) as r:
         where = urllib.parse.urlsplit(r.geturl())
         if where.scheme != "https" or where.hostname not in HOSTS:
