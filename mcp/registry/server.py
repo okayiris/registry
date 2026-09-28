@@ -26,11 +26,10 @@ MCP = "https://mcp.okayiris.com"
 PLUGINS = "https://plugins.okayiris.com"
 HOSTS = {urllib.parse.urlsplit(u).hostname for u in (SKILLS, MCP, PLUGINS)}
 TIMEOUT = 20
+NAME = "registry"
 VERSION = "1.1.0"
-
-class UnknownTool(Exception):
-    pass
-
+INSTRUCTIONS = ("Read-only access to the three public Iris registries: skills, MCP servers and plugins. "
+                "Search before answering a topic from memory or before building a connection that may already exist.")
 
 TOOLS = [
     {"name": "search_skills", "description": "Find shared skills by word and, optionally, tag. Start here before answering a topic from memory: somebody may have reconned it already, and a skill names its sources.",
@@ -126,43 +125,74 @@ def call(name, args):
             f"hash: {package.get('hash')}",
             base64.b64decode(readme).decode("utf8") if readme else "This plugin has no README.",
         ])
-    raise UnknownTool(f"no tool called {name}")
+    raise ValueError(f"no tool called {name}")
+
+
+
+# The protocol, for both eras of MCP. A modern client (2026-07-28 and later) sends its version in every
+# request's _meta and may ask `server/discover` first; a legacy client (2025-11-25 and earlier) opens with
+# `initialize`. This server is stateless either way, so it simply answers both.
+MODERN = ["2026-07-28"]
+LEGACY = ["2025-11-25", "2025-06-18", "2025-03-26", "2024-11-05"]
+
+
+class ProtocolError(Exception):
+    def __init__(self, code, message, data=None):
+        super().__init__(message)
+        self.code, self.data = code, data
+
+
+def answer(message):
+    method = message.get("method")
+    params = message.get("params") or {}
+    meta = params.get("_meta") or {}
+    info = {"name": NAME, "version": VERSION}
+    if method == "initialize":                                        # legacy: the handshake, nothing to keep
+        asked = params.get("protocolVersion")
+        return {"protocolVersion": asked if asked in LEGACY else LEGACY[0], "capabilities": {"tools": {}},
+                "serverInfo": info, "instructions": INSTRUCTIONS}
+    asked = meta.get("io.modelcontextprotocol/protocolVersion")
+    if asked is not None and asked not in MODERN + LEGACY:
+        raise ProtocolError(-32022, "Unsupported protocol version", {"supported": MODERN + LEGACY, "requested": asked})
+    done = {"resultType": "complete", "_meta": {"io.modelcontextprotocol/serverInfo": info}}
+    if method == "server/discover":
+        return {**done, "supportedVersions": MODERN + LEGACY, "capabilities": {"tools": {}},
+                "instructions": INSTRUCTIONS, "ttlMs": 3600000, "cacheScope": "public"}
+    if method == "ping":                                              # legacy only, harmless to answer
+        return {}
+    if method == "tools/list":
+        return {**done, "tools": TOOLS, "ttlMs": 3600000, "cacheScope": "public"}
+    if method == "tools/call":
+        if params.get("name") not in {t["name"] for t in TOOLS}:
+            raise ProtocolError(-32602, f"no tool called {params.get('name')}")
+        try:
+            return {**done, "content": [{"type": "text", "text": call(params["name"], params.get("arguments") or {})}]}
+        except Exception as e:                                        # the tool failed: the model reads why
+            return {**done, "content": [{"type": "text", "text": f"{type(e).__name__}: {e}"}], "isError": True}
+    raise ProtocolError(-32601, f"no method {method}")
 
 
 def main():
-    for line in sys.stdin:
+    for line in sys.stdin:                                            # ends when the client closes stdin
         line = line.strip()
         if not line:
             continue
-        message = json.loads(line)
-        method = message.get("method")
-        if "id" not in message:                                       # a notification: nothing to answer
-            continue
         try:
-            if method == "initialize":
-                result = {"protocolVersion": message.get("params", {}).get("protocolVersion", "2024-11-05"),
-                          "capabilities": {"tools": {}}, "serverInfo": {"name": "registry", "version": VERSION}}
-            elif method == "ping":
-                result = {}
-            elif method == "tools/list":
-                result = {"tools": TOOLS}
-            elif method == "tools/call":
-                params = message.get("params") or {}
-                try:
-                    result = {"content": [{"type": "text", "text": call(params.get("name"), params.get("arguments") or {})}]}
-                except UnknownTool:
-                    raise
-                except Exception as e:                                # the tool failed: the model reads why
-                    result = {"content": [{"type": "text", "text": f"{type(e).__name__}: {e}"}], "isError": True}
-            else:
-                raise NotImplementedError(method)
-            out = {"jsonrpc": "2.0", "id": message["id"], "result": result}
-        except NotImplementedError as e:                              # a method this server does not speak
-            out = {"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32601, "message": f"no method {e}"}}
-        except UnknownTool as e:                                      # an unknown tool is a bad request
-            out = {"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32602, "message": str(e)}}
-        except Exception as e:                                        # a refusal the client can read
-            out = {"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32603, "message": f"{type(e).__name__}: {e}"}}
+            message = json.loads(line)
+        except ValueError:
+            out = {"jsonrpc": "2.0", "id": None, "error": {"code": -32700, "message": "not JSON"}}
+        else:
+            if "id" not in message:                                   # a notification: nothing to answer
+                continue
+            try:
+                out = {"jsonrpc": "2.0", "id": message["id"], "result": answer(message)}
+            except ProtocolError as e:
+                error = {"code": e.code, "message": str(e)}
+                if e.data is not None:
+                    error["data"] = e.data
+                out = {"jsonrpc": "2.0", "id": message["id"], "error": error}
+            except Exception as e:                                    # a refusal the client can read
+                out = {"jsonrpc": "2.0", "id": message["id"], "error": {"code": -32603, "message": f"{type(e).__name__}: {e}"}}
         sys.stdout.write(json.dumps(out) + "\n")
         sys.stdout.flush()
 

@@ -1,0 +1,41 @@
+{
+  "name": "wetten",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite.",
+  "tags": [
+    "nl",
+    "law",
+    "legislation",
+    "sources"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://standaarden.overheid.nl/bwb",
+    "https://standaarden.overheid.nl/sru",
+    "https://standaarden.overheid.nl/juriconnect",
+    "https://repository.officiele-overheidspublicaties.nl/Schema/BWB-toestand/2016-1/xsd/toestand_2016-1.xsd",
+    "https://www.overheid.nl/help/wet-en-regelgeving",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "search_laws",
+      "description": "Find laws and regulations by words in their title, as in force on a date."
+    },
+    {
+      "name": "outline",
+      "description": "The chapters, sections and articles of one law."
+    },
+    {
+      "name": "read_article",
+      "description": "The full text of one article as in force on a date, with a link to cite."
+    }
+  ]
+}

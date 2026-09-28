@@ -23,6 +23,14 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
   also across a redirect.
 - [x] `okayiris-registry` 1.1.0 (skill): names the tools as they exist in a house, as house commands and
   as the registry MCP server; adds plugins as the third shelf and says when to build which.
+- [x] `writing-an-mcp-server` 1.0.0 (skill): the two protocol eras, stdio pitfalls, tool errors against
+  protocol errors, permissions, testing and review.
+- [x] `web-fetch` 1.0.0 (MCP): one public page as Markdown, refusing addresses inside a network.
+- [x] `wetten` 1.0.0 (MCP): Dutch laws and articles as in force on a date, from the BWB open data.
+
+All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
+modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
+its 2026-07-28 revision and a house may run either.
 
 ## MCP servers
 
@@ -30,8 +38,8 @@ All read-only, no key, open data: they need only `internet`, which makes them ea
 
 | # | Name | Category | What it does | Permissions |
 |---|---|---|---|---|
-| 1 | `web-fetch` | knowledge | Read one public page as Markdown, for the research step of a skill. The `search` plugin finds pages; nothing reads them yet. | internet |
-| 2 | `wetten` | knowledge | Look up Dutch legislation and a specific article on wetten.overheid.nl, with the version valid on a given date. Backs every NL skill with a primary source. | internet |
+| 1 | ~~`web-fetch`~~ (done) | knowledge | Read one public page as Markdown, for the research step of a skill. The `search` plugin finds pages; nothing reads them yet. | internet |
+| 2 | ~~`wetten`~~ (done) | knowledge | Look up Dutch legislation and a specific article on wetten.overheid.nl, with the version valid on a given date. Backs every NL skill with a primary source. | internet |
 | 3 | `pdok` | knowledge | Addresses, postcodes and buildings from the BAG through PDOK's locatieserver. | internet |
 | 4 | `rdw` | knowledge | Vehicle data by licence plate from the RDW open data. | internet |
 | 5 | `cbs` | knowledge | Figures from CBS StatLine (inflation, population, prices) with the table they came from. | internet |
@@ -49,7 +57,7 @@ Text only, sources named, `CC-BY-4.0` unless there is a reason for another.
 
 | # | Name | What it knows |
 |---|---|---|
-| 1 | `writing-an-mcp-server` | stdio against streamable-http, the JSON-RPC handshake, tool errors against protocol errors, stdout for messages only, the smallest honest permission list, `env` as references. |
+| 1 | ~~`writing-an-mcp-server`~~ (done) | stdio against streamable-http, the JSON-RPC handshake, tool errors against protocol errors, stdout for messages only, the smallest honest permission list, `env` as references. |
 | 2 | `reviewing-a-submission` | The reviewer's checklist for all three shelves: sources that say what the text says, nothing personal, no secrets, permissions that match the code. |
 | 3 | `source-checking` | Primary against secondary sources, a second independent one for anything surprising, the date a rule is valid from. |
 | 4 | `permissions-explained` | Each of the six permissions in plain words, to read out to an owner before an install. |
@@ -87,7 +95,9 @@ the plugin's own database, no bank API), `notes` (a Markdown folder to search an
 ## Order of work
 
 1. `registry` 1.1.0 and `okayiris-registry` 1.1.0 (done, waiting for review).
-2. `writing-an-mcp-server`, `web-fetch` and `wetten`: they make every later entry faster and better sourced.
-3. The skills next to existing plugins, starting with `dutch-vat-zzp` and `acting-on-behalf`.
+2. `writing-an-mcp-server`, `web-fetch` and `wetten` (done, waiting for review): they make every later
+   entry faster and better sourced.
+3. The skills next to existing plugins, starting with `dutch-vat-zzp` and `acting-on-behalf`, each citing
+   the articles it relies on through `wetten`.
 
 One house may have at most 5 versions waiting for review per registry, so hand them in in small batches.

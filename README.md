@@ -13,12 +13,15 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | Name | What it is | By | License |
 |---|---|---|---|
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
+| [writing-an-mcp-server](skills/writing-an-mcp-server) | How to write an MCP server for the shared registry that works with old and new MCP clients, asks for no more than it needs, and passes review the first time. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 
 | Name | What it is | By | License |
 |---|---|---|---|
 | [registry](mcp/registry) | Search the shared skills, the MCP directory and the plugin marketplace, so an assistant can use what every other house already reconned or built. | Iris | MIT |
+| [web-fetch](mcp/web-fetch) | Read one public web page as Markdown, so an assistant can read a source itself instead of answering from memory. | Iris | MIT |
+| [wetten](mcp/wetten) | Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite. | Iris | MIT |
 
 ## What comes next
 
