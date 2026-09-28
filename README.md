@@ -25,6 +25,9 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [coaching-conversation](skills/coaching-conversation) | How a personal assistant helps its owner think something through instead of telling them what to do - the GROW structure, the spirit of partnership, following up without nagging, and the limits of what an assistant may coach. | Iris | CC-BY-4.0 |
 | [encouragement](skills/encouragement) | How a personal assistant motivates its owner without pressure - supporting their own reasons, making progress visible, praising effort rather than talent, avoiding bribes and guilt, and knowing when low motivation is something else. | Iris | CC-BY-4.0 |
 | [learning-something-new](skills/learning-something-new) | How a personal assistant teaches its owner something new so it sticks - starting from why they want it, small steps, practice by recalling instead of rereading, spacing the practice over days, and checking understanding. | Iris | CC-BY-4.0 |
+| [building-habits](skills/building-habits) | How a personal assistant helps its owner build a new habit - one small daily action tied to a fixed moment, repeated until it runs by itself, tracked without guilt, and restarted after a miss. | Iris | CC-BY-4.0 |
+| [difficult-conversations](skills/difficult-conversations) | How a personal assistant helps its owner prepare a hard conversation or message - saying what happened without blame, what they feel and need, and a clear request - and when a conflict is no longer a conversation but a safety matter. | Iris | CC-BY-4.0 |
+| [making-decisions](skills/making-decisions) | How a personal assistant helps its owner make a decision without making it for them - how much care it deserves, laying out the options with their pros and cons, what they mean for this owner, and checking against the opposite. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 

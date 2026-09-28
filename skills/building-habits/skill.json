@@ -1,0 +1,19 @@
+{
+  "name": "building-habits",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant helps its owner build a new habit - one small daily action tied to a fixed moment, repeated until it runs by itself, tracked without guilt, and restarted after a miss.",
+  "tags": [
+    "habits",
+    "health",
+    "behaviour-change",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/",
+    "https://pubmed.ncbi.nlm.nih.gov/23211256/",
+    "https://www.thuisarts.nl/stress/ik-wil-beter-omgaan-met-stress"
+  ]
+}
