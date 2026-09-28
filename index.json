@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:51.922Z",
+  "updated": "2026-09-28T08:41:57.110Z",
   "skills": [
     {
       "kind": "skill",
@@ -421,6 +421,36 @@
       ],
       "hash": "931670d6c8dd188fa70a4ac12806afd344b38d90ad14064d53c699aee6ed5d69",
       "published": 1790584823215
+    },
+    {
+      "kind": "skill",
+      "name": "writing-an-mcp-server",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How to write an MCP server for the shared registry that works with old and new MCP clients, asks for no more than it needs, and passes review the first time.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "mcp",
+        "developer",
+        "sharing"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://mcp.okayiris.com/docs.md",
+        "https://plugins.okayiris.com/docs.md",
+        "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio",
+        "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/index",
+        "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+        "https://www.jsonrpc.org/specification"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "2ca7105396d7544913cfdb906d0808f4bf4b2622684ffde9561feccd8ad9c23f",
+      "published": 1790584823786
     }
   ],
   "mcp": [
