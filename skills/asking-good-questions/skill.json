@@ -1,0 +1,21 @@
+{
+  "name": "asking-good-questions",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant asks its owner questions - when to ask and when to just act, one open question at a time, reflecting back, offering information with permission, asking the hard question, and knowing when to stop.",
+  "tags": [
+    "communication",
+    "questions",
+    "coaching",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+    "https://www.nngroup.com/articles/open-ended-questions/",
+    "https://www.nngroup.com/articles/the-funnel-technique-in-qualitative-user-research/",
+    "https://arxiv.org/abs/1907.06554",
+    "https://www.113.nl/devraagstellen"
+  ]
+}

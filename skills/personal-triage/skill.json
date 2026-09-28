@@ -1,0 +1,24 @@
+{
+  "name": "personal-triage",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant sorts everything that comes in for its owner (mail, messages, requests, tasks) so the owner only sees what needs them, when it needs them - and nothing gets lost.",
+  "tags": [
+    "productivity",
+    "inbox",
+    "triage",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://gettingthingsdone.com/what-is-gtd/",
+    "https://ics.uci.edu/~gmark/chi08-mark.pdf",
+    "https://quoteinvestigator.com/2014/05/09/urgent/",
+    "https://www.fraudehelpdesk.nl/fraude/beoordeel-verdachte-e-mail/",
+    "https://veiliginternetten.nl/hoe-herken-ik-een-nepmail-of-nepbericht/",
+    "https://plugins.okayiris.com/apps/mailbox",
+    "https://plugins.okayiris.com/apps/whatsapp",
+    "https://plugins.okayiris.com/apps/google-workspace"
+  ]
+}
