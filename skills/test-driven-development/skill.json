@@ -1,0 +1,27 @@
+{
+  "name": "test-driven-development",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Writing code test-first - a test list, one failing test, just enough code to pass, then refactor - with what a good unit test looks like, test doubles used sparingly, the test pyramid as a rule of thumb, and what research does and does not show - from Kent Beck, Martin Fowler's site and TDD studies on arXiv.",
+  "tags": [
+    "testing",
+    "tdd",
+    "unit-tests",
+    "refactoring",
+    "engineering",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://tidyfirst.substack.com/p/canon-tdd",
+    "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
+    "https://martinfowler.com/bliki/UnitTest.html",
+    "https://martinfowler.com/bliki/TestDouble.html",
+    "https://martinfowler.com/articles/practical-test-pyramid.html",
+    "https://google.github.io/eng-practices/review/reviewer/looking-for.html",
+    "https://arxiv.org/abs/2007.09863",
+    "https://arxiv.org/abs/1611.05994",
+    "https://arxiv.org/abs/1809.01828"
+  ]
+}

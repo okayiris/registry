@@ -1,0 +1,28 @@
+{
+  "name": "code-review",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Reviewing a code change and asking for review well - what to look for (design, correctness, complexity, tests, names), how to write kind, specific comments with labelled nits, how fast to respond, and how to send small, well-described changes - from Google's engineering practices and code review research.",
+  "tags": [
+    "code-review",
+    "pull-requests",
+    "engineering",
+    "collaboration",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://google.github.io/eng-practices/review/reviewer/standard.html",
+    "https://google.github.io/eng-practices/review/reviewer/looking-for.html",
+    "https://google.github.io/eng-practices/review/reviewer/navigate.html",
+    "https://google.github.io/eng-practices/review/reviewer/speed.html",
+    "https://google.github.io/eng-practices/review/reviewer/comments.html",
+    "https://google.github.io/eng-practices/review/developer/small-cls.html",
+    "https://google.github.io/eng-practices/review/developer/cl-descriptions.html",
+    "https://google.github.io/eng-practices/review/developer/handling-comments.html",
+    "https://arxiv.org/abs/2302.11686",
+    "https://arxiv.org/abs/1807.04485",
+    "https://arxiv.org/abs/2607.03316"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "postgres-practices",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Working well with PostgreSQL - reading EXPLAIN ANALYZE, choosing indexes and when not to, avoiding N+1 queries, pooling connections, transactions and isolation, migrations that do not lock out users, row-level security and vacuum - from the PostgreSQL and PgBouncer documentation.",
+  "tags": [
+    "postgresql",
+    "database",
+    "sql",
+    "performance",
+    "indexes",
+    "migrations",
+    "security",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.postgresql.org/docs/current/using-explain.html",
+    "https://www.postgresql.org/docs/current/indexes-intro.html",
+    "https://www.postgresql.org/docs/current/indexes-multicolumn.html",
+    "https://www.postgresql.org/docs/current/indexes-partial.html",
+    "https://www.postgresql.org/docs/current/sql-createindex.html",
+    "https://www.postgresql.org/docs/current/sql-altertable.html",
+    "https://www.postgresql.org/docs/current/explicit-locking.html",
+    "https://www.postgresql.org/docs/current/transaction-iso.html",
+    "https://www.postgresql.org/docs/current/runtime-config-client.html",
+    "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+    "https://www.postgresql.org/docs/current/routine-vacuuming.html",
+    "https://www.pgbouncer.org/features.html"
+  ]
+}

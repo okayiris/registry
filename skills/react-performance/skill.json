@@ -1,0 +1,30 @@
+{
+  "name": "react-performance",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Making a React or Next.js app fast in the order that pays off - measure first, remove request waterfalls, keep code on the server, shrink the client bundle, then re-renders, lists and images - from the official React, Next.js and web.dev documentation.",
+  "tags": [
+    "react",
+    "nextjs",
+    "performance",
+    "frontend",
+    "core-web-vitals",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://react.dev/versions",
+    "https://nextjs.org/blog",
+    "https://react.dev/blog/2025/10/07/react-compiler-1",
+    "https://react.dev/reference/react/useMemo",
+    "https://react.dev/reference/react/Profiler",
+    "https://react.dev/learn/rendering-lists",
+    "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+    "https://nextjs.org/docs/app/getting-started/fetching-data",
+    "https://nextjs.org/docs/app/guides/lazy-loading",
+    "https://nextjs.org/docs/app/guides/package-bundling",
+    "https://nextjs.org/docs/app/api-reference/components/image",
+    "https://web.dev/articles/vitals"
+  ]
+}
