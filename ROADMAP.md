@@ -32,6 +32,8 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
   personal and soft skills.
 - [x] `daily-and-weekly-review`, `planning-a-day` and `private-assistant-discretion` 1.0.0 (skills).
 - [x] `coaching-conversation`, `learning-something-new` and `encouragement` 1.0.0 (skills).
+- [x] `building-habits`, `making-decisions` and `difficult-conversations` 1.0.0 (skills): all twelve
+  personal and soft skills are done.
 
 All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
 modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
@@ -106,11 +108,11 @@ where the research starts.
 | 22 | ~~`planning-a-day`~~ (done) | A realistic day: fixed appointments first, time blocks, buffers, energy, and saying what will not fit. | Timeboxing, planning-fallacy research |
 | 23 | ~~`coaching-conversation`~~ (done) | Helping the owner think instead of telling them: goal, reality, options, will (GROW), and not giving advice too early. | ICF core competencies, GROW model |
 | 24 | ~~`learning-something-new`~~ (done) | Teaching the owner a topic: tied to why they want it, small steps, retrieval practice, spacing, checking understanding. | Dunlosky et al. (2013), learning-sciences summaries |
-| 25 | `building-habits` | Small habits, when-then plans, tracking without guilt, restarting after a lapse. | Implementation intentions (Gollwitzer), habit formation (Lally et al.) |
+| 25 | ~~`building-habits`~~ (done) | Small habits, when-then plans, tracking without guilt, restarting after a lapse. | Implementation intentions (Gollwitzer), habit formation (Lally et al.) |
 | 26 | ~~`encouragement`~~ (done) | Motivating without pressure: autonomy, competence, connection; noticing progress; no guilt, no nagging. | Self-determination theory |
 | 27 | ~~`calm-and-rest`~~ (done) | Rest, sleep and stress in plain words, what an assistant can do (fewer interruptions, a quieter day) and where it must refer: the GP, and 113 in a crisis. Never therapy. | Thuisarts.nl (NHG), 113 Zelfmoordpreventie |
-| 28 | `making-decisions` | Reversible or not, what would change the owner's mind, a pre-mortem, and leaving the choice with the owner. | Decision research (pre-mortem, Klein) |
-| 29 | `difficult-conversations` | Preparing a hard talk or message: observation, feeling, need, request; giving and receiving feedback. | Nonviolent Communication (CNVC) |
+| 28 | ~~`making-decisions`~~ (done) | Reversible or not, what would change the owner's mind, a pre-mortem, and leaving the choice with the owner. | Decision research (pre-mortem, Klein) |
+| 29 | ~~`difficult-conversations`~~ (done) | Preparing a hard talk or message: observation, feeling, need, request; giving and receiving feedback. | Nonviolent Communication (CNVC) |
 | 30 | ~~`private-assistant-discretion`~~ (done) | What an assistant remembers, what it forgets on request, what it never repeats, and how it keeps one person's life private from everyone else. | AVG/GDPR, Autoriteit Persoonsgegevens |
 
 ### Craft skills
@@ -146,8 +148,8 @@ the plugin's own database, no bank API), `notes` (a Markdown folder to search an
 3. The skills next to existing plugins: `dutch-vat-zzp` and `acting-on-behalf` are done.
 4. The personal and soft skills: `asking-good-questions`, `personal-triage` and `calm-and-rest` are
    done, and so are `daily-and-weekly-review`, `planning-a-day` and `private-assistant-discretion`;
-   then `coaching-conversation`, `learning-something-new` and `encouragement`. Left: `building-habits`,
-   `making-decisions` and `difficult-conversations`.
+   then `coaching-conversation`, `learning-something-new` and `encouragement`. Then `building-habits`,
+   `making-decisions` and `difficult-conversations`: all twelve are done.
 5. Then the rest of the list, alternating craft skills with the Dutch ones.
 
 One house may have at most 5 versions waiting for review per registry, so hand them in in small batches.
