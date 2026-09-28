@@ -1,0 +1,29 @@
+{
+  "name": "government-doors",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Which Dutch government door to use for what - DigiD, MijnOverheid and the Berichtenbox, Belastingdienst and Toeslagen, the gemeente, UWV, SVB, DUO, CAK, RDW and KVK - where to get help in person, and how DigiD Machtigen lets someone act for another.",
+  "tags": [
+    "government",
+    "digid",
+    "nl",
+    "admin",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.digid.nl/aanvragen-en-activeren/machtigen",
+    "https://mijn.overheid.nl/wat-is-de-berichtenbox/",
+    "https://mijn.overheid.nl/wat-is-de-berichtenbox/machtigen/",
+    "https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/overheidsbrede-dienstverlening/informatiepunt-digitale-overheid/",
+    "https://www.rijksoverheid.nl/themas/overheid-en-democratie/gemeenten/taken-gemeente",
+    "https://www.rijksoverheid.nl/contact/contactgids/uitvoeringsinstituut-werknemersverzekeringen-uwv",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/toeslagen",
+    "https://www.svb.nl/nl/",
+    "https://duo.nl/particulier/",
+    "https://www.hetcak.nl/",
+    "https://www.rdw.nl/",
+    "https://www.kvk.nl/"
+  ]
+}

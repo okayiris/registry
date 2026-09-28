@@ -1,0 +1,29 @@
+{
+  "name": "huurrecht",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Dutch tenancy law for tenants of a home in 2026 - rent increases and the 2026 maximums, the points system and the three sectors, fixed and temporary contracts, service costs, the deposit, defects and repairs, and how to go to the Huurcommissie.",
+  "tags": [
+    "housing",
+    "rent",
+    "tenancy",
+    "nl",
+    "legal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.rijksoverheid.nl/actueel/nieuws/2025/12/15/maximale-huurverhoging-2026-in-sociale-sector-41-middenhuur-61-en-vrije-sector-44",
+    "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/welke-regels-gelden-er-voor-een-huurverhoging",
+    "https://www.huurcommissie.nl/actueel/nieuws/2026/04/03/huurverhoging-per-1-juli-2026",
+    "https://www.volkshuisvestingnederland.nl/onderwerpen/huren-en-wonen/inkomensgrenzen-huurprijsgrenzen-en-huurtoeslagparameters/maximale-huurprijsgrenzen",
+    "https://www.huurcommissie.nl/onderwerpen/wet--en-regelgeving/wet-betaalbare-huur/wet-betaalbare-huur-voor-huurders",
+    "https://www.huurcommissie.nl/onderwerpen/huurder-sociale--en-middensector/huurprijs-punten-sociale-middensector-huurder/verlaging-aanvangshuurprijs-vragen",
+    "https://www.rijksoverheid.nl/vraag-en-antwoord/huurwoning-zoeken/wanneer-kan-ik-tijdelijk-huren",
+    "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/woning-huren-waarborgsom",
+    "https://www.huurcommissie.nl/onderwerpen/huurder-sociale--en-middensector/onderhoud-gebreken-sociale-middensector-huurder/onderhoud-gebreken-woning",
+    "https://www.huurcommissie.nl/support/beleidsboeken/servicekosten/procedureregels",
+    "https://www.huurcommissie.nl/procedure/procedure-starten/kosten-procedure-betalen",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0005290&g=2026-09-28"
+  ]
+}

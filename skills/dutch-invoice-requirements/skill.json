@@ -1,0 +1,30 @@
+{
+  "name": "dutch-invoice-requirements",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "What a Dutch invoice must show and how long to keep it, for a zzp'er or small business - the art. 35a Wet OB list, simplified invoices up to EUR 100, credit notes, foreign currency, e-invoicing, the deadline to send, payment terms, statutory interest and collection costs.",
+  "tags": [
+    "invoicing",
+    "bookkeeping",
+    "nl",
+    "zzp",
+    "finance",
+    "payments"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0002629&artikel=35a&g=2026-09-28",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0005289&artikel=119a&g=2026-09-28",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0031432&artikel=2&g=2026-09-28",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0002320&artikel=52&g=2026-09-28",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/facturen_maken/factuureisen/factuureisen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/facturen_maken/factuureisen/aangepaste_regels_facturen/vereenvoudigde_factuur",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/facturen_maken/wie_zijn_verplicht_te_factureren",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/btw/administratie_bijhouden/facturen_maken/uw_facturen_bewaren",
+    "https://ondernemersplein.overheid.nl/wetten-en-regels/facturen-maken-en-versturen/",
+    "https://ondernemersplein.overheid.nl/wetten-en-regels/betalingstermijn-incassokosten-en-wettelijke-rente/",
+    "https://www.rijksoverheid.nl/onderwerpen/schulden/vraag-en-antwoord/hoogte-wettelijke-rente",
+    "https://www.rijksoverheid.nl/actueel/nieuws/2026/09/11/kabinet-kiest-voor-invoering-e-facturatie-en-rapportage-voor-bedrijven"
+  ]
+}
