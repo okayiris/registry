@@ -12,13 +12,17 @@ one hash over its files. Publishing is one-way from there: a version never chang
 
 | Name | What it is | By | License |
 |---|---|---|---|
-| [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
+| [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 
 | Name | What it is | By | License |
 |---|---|---|---|
-| [registry](mcp/registry) | Search the shared skills and read an MCP server's entry, so an assistant can use what every other house already reconned. | Iris | MIT |
+| [registry](mcp/registry) | Search the shared skills, the MCP directory and the plugin marketplace, so an assistant can use what every other house already reconned or built. | Iris | MIT |
+
+## What comes next
+
+What we still want to build, and why it is a skill, a server or a plugin: [ROADMAP.md](ROADMAP.md).
 
 ## Adding one
 
