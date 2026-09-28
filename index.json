@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:33.172Z",
+  "updated": "2026-09-28T08:41:37.639Z",
   "skills": [
     {
       "kind": "skill",
@@ -310,9 +310,9 @@
     {
       "kind": "skill",
       "name": "okayiris-registry",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Iris",
-      "description": "Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too.",
+      "description": "Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too.",
       "license": "CC-BY-4.0",
       "tags": [
         "knowledge",
@@ -326,10 +326,11 @@
         "https://plugins.okayiris.com/docs.md"
       ],
       "versions": [
+        "1.1.0",
         "1.0.0"
       ],
-      "hash": "e8df7ee18eb0e05902128bd7330352751df57321016c5eb5da6a1809798bbe48",
-      "published": 0
+      "hash": "63e764f7c444b4570553316bafd13adbbe879ace1777eaea063a66ecca9f6c3d",
+      "published": 1790584821502
     }
   ],
   "mcp": [
