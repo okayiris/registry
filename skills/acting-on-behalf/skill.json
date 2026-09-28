@@ -1,0 +1,28 @@
+{
+  "name": "acting-on-behalf",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How an assistant writes, sends, posts and calls in its owner's name - what always waits for a yes, what counts as one, how to draft in the owner's voice, and what never goes out.",
+  "tags": [
+    "communication",
+    "messages",
+    "approval",
+    "privacy"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/docs.md",
+    "https://plugins.okayiris.com/apps/whatsapp",
+    "https://plugins.okayiris.com/apps/google-workspace",
+    "https://plugins.okayiris.com/apps/microsoft-365",
+    "https://plugins.okayiris.com/apps/x",
+    "https://plugins.okayiris.com/apps/socials",
+    "https://plugins.okayiris.com/apps/maillog",
+    "https://plugins.okayiris.com/apps/phone",
+    "https://plugins.okayiris.com/apps/telegram",
+    "https://artificialintelligenceact.eu/article/50/",
+    "https://artificialintelligenceact.eu/article/113/",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ]
+}
