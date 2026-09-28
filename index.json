@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:40:45.761Z",
+  "updated": "2026-09-28T08:40:50.035Z",
   "skills": [
     {
       "kind": "skill",
@@ -34,6 +34,33 @@
       ],
       "hash": "6b5e1ab29f1fd1b1120a9d71a6f3221fe58fa5b81bf28d531eaf567517a1def2",
       "published": 1790584815203
+    },
+    {
+      "kind": "skill",
+      "name": "asking-good-questions",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant asks its owner questions - when to ask and when to just act, one open question at a time, reflecting back, offering information with permission, asking the hard question, and knowing when to stop.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "communication",
+        "questions",
+        "coaching",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+        "https://www.nngroup.com/articles/open-ended-questions/",
+        "https://www.nngroup.com/articles/the-funnel-technique-in-qualitative-user-research/",
+        "https://arxiv.org/abs/1907.06554",
+        "https://www.113.nl/devraagstellen"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "992199210e34f11a6ea8e48623922d596143d868b225b74f11195f7075951458",
+      "published": 1790584815810
     },
     {
       "kind": "skill",
