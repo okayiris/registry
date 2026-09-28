@@ -1,0 +1,20 @@
+{
+  "name": "eu-vat-for-freelancers",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "The EU-wide VAT rules a freelancer or small business meets when working across borders - services and goods to businesses and consumers in other EU countries, reverse charge, the 10,000 euro distance-selling threshold, and the domestic and cross-border small business exemption.",
+  "tags": [
+    "tax",
+    "vat",
+    "eu",
+    "freelance",
+    "international"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://europa.eu/youreurope/business/finance-and-tax/vat/cross-border-vat/index_en.htm",
+    "https://europa.eu/youreurope/business/finance-and-tax/vat/vat-exemptions/index_en.htm",
+    "https://sme-vat-rules.ec.europa.eu/sme-scheme/cross-border-sme-scheme_en"
+  ]
+}

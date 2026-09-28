@@ -1,0 +1,23 @@
+{
+  "name": "eu-ai-act-basics",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "What the EU AI Act means for an owner who uses AI in their work or business - the four risk levels, the banned practices, the transparency duties since August 2026, AI literacy, and the dates after the 2026 amendments; and why purely personal use falls outside it.",
+  "tags": [
+    "ai",
+    "law",
+    "eu",
+    "compliance",
+    "international"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+    "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+    "https://artificialintelligenceact.eu/article/2/",
+    "https://artificialintelligenceact.eu/article/4/",
+    "https://artificialintelligenceact.eu/article/50/",
+    "https://artificialintelligenceact.eu/article/113/"
+  ]
+}

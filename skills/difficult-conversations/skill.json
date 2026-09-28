@@ -1,19 +1,22 @@
 {
   "name": "difficult-conversations",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Iris",
   "description": "How a personal assistant helps its owner prepare a hard conversation or message - saying what happened without blame, what they feel and need, and a clear request - and when a conflict is no longer a conversation but a safety matter.",
   "tags": [
     "communication",
     "conflict",
     "feedback",
-    "personal"
+    "personal",
+    "international"
   ],
   "permissions": [],
   "license": "CC-BY-4.0",
   "sources": [
     "https://www.cnvc.org/about/purpose-of-nvc",
     "https://www.nonviolentcommunication.com/pdf_files/4_components_of_NVC.pdf",
-    "https://www.rijksoverheid.nl/onderwerpen/huiselijk-geweld/vraag-en-antwoord/wat-moet-ik-doen-bij-huiselijk-geweld"
+    "https://www.rijksoverheid.nl/onderwerpen/huiselijk-geweld/vraag-en-antwoord/wat-moet-ik-doen-bij-huiselijk-geweld",
+    "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency/faq/index_en.htm",
+    "https://findahelpline.com/about"
   ]
 }

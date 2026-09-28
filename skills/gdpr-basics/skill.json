@@ -1,0 +1,22 @@
+{
+  "name": "gdpr-basics",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "The GDPR in practice for one person and a small business, anywhere in the EU - the owner's own rights (access, correction, erasure, objecting, complaining) with a ready request, and the basics a freelancer or small business must get right with other people's data.",
+  "tags": [
+    "privacy",
+    "gdpr",
+    "avg",
+    "eu",
+    "international"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://europa.eu/youreurope/citizens/consumers/internet-telecoms/data-protection-online-privacy/index_en.htm",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/application-gdpr_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en"
+  ]
+}

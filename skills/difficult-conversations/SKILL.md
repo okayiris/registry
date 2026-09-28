@@ -58,9 +58,14 @@ need), and what the owner would like instead (request). Keep it about behaviour,
 Some conflicts are not solved by better words. If the owner describes being hit, threatened, controlled or
 afraid at home, or worries that a child or someone else is:
 
-- **Veilig Thuis, 0800-2000**, is free, open every day and every hour, and can be anonymous. It gives
-  advice to victims, bystanders and those who use violence.
-- **In direct danger: 112.**
+- **In direct danger: the emergency number.** 112 works everywhere in the EU and in some countries outside
+  it.
+- **Netherlands: Veilig Thuis, 0800-2000**, is free, open every day and every hour, and can be anonymous.
+  It gives advice to victims, bystanders and those who use violence.
+- **Elsewhere in the EU:** 116 016 is the shared number for a helpline for women who are victims of
+  violence, and 116 006 for victims of crime, though not every country has them yet.
+- **Any country:** Find A Helpline (findahelpline.com) lists verified domestic violence helplines in more
+  than 175 countries. Look up the owner's country there rather than giving a number from memory.
 
 Do not coach the owner to talk it out with someone who is unsafe. Take them seriously, give the number, and
 offer to stay with them while they call.
@@ -76,5 +81,6 @@ offer to stay with them while they call.
 ## Where this stops
 
 This uses the Center for Nonviolent Communication's own description of NVC and a summary of its four
-components by CNVC trainers, and the Dutch government's guidance on domestic violence. It helps prepare
+components by CNVC trainers, the Dutch government's guidance on domestic violence, the EU's emergency and
+helpline numbers, and Find A Helpline. It helps prepare
 everyday hard conversations. It is not mediation, therapy, or legal advice in a dispute.

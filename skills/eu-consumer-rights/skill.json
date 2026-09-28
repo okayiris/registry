@@ -1,0 +1,19 @@
+{
+  "name": "eu-consumer-rights",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "The consumer rights that hold in every EU country - the 14-day right of withdrawal for online and doorstep purchases, the minimum 2-year legal guarantee, digital content, and where to get help across borders.",
+  "tags": [
+    "consumer",
+    "eu",
+    "shopping",
+    "international"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_en.htm",
+    "https://europa.eu/youreurope/citizens/consumers/shopping/guarantees/index_en.htm",
+    "https://europa.eu/youreurope/citizens/consumers/shopping/shopping-consumer-rights/index_en.htm"
+  ]
+}
