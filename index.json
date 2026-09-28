@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:42:06.481Z",
+  "updated": "2026-09-28T08:42:11.048Z",
   "skills": [
     {
       "kind": "skill",
@@ -510,6 +510,34 @@
       ],
       "hash": "b45b854337f734265940a7f7af0b9e3f94f2d0a2cd286a1d8e5fdee725047e5c",
       "published": 1790584814090
+    },
+    {
+      "kind": "mcp",
+      "name": "web-fetch",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "Read one public web page as Markdown, so an assistant can read a source itself instead of answering from memory.",
+      "license": "MIT",
+      "tags": [
+        "research",
+        "web",
+        "sources"
+      ],
+      "permissions": [
+        "internet"
+      ],
+      "sources": [
+        "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio",
+        "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+        "https://mcp.okayiris.com/docs.md",
+        "https://docs.python.org/3/library/urllib.request.html",
+        "https://docs.python.org/3/library/ipaddress.html"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "327955ae025aa4a0c87be743a7389d7d18925e0e570329735e882a67670b26fa",
+      "published": 1790584814627
     }
   ]
 }

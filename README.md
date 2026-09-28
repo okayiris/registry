@@ -35,6 +35,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 |---|---|---|---|
 | [dutch-laws](mcp/dutch-laws) | Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite. | Iris | MIT |
 | [registry](mcp/registry) | Search the shared skills, the MCP directory and the plugin marketplace, so an assistant can use what every other house already reconned or built. | Iris | MIT |
+| [web-fetch](mcp/web-fetch) | Read one public web page as Markdown, so an assistant can read a source itself instead of answering from memory. | Iris | MIT |
 
 ## Adding one
 
