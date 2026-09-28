@@ -1,0 +1,19 @@
+{
+  "name": "daily-and-weekly-review",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant runs a short start and end of the day and a weekly review with its owner - preparing everything so the owner only decides, and closing open loops so they can switch off.",
+  "tags": [
+    "productivity",
+    "planning",
+    "review",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://gettingthingsdone.com/wp-content/uploads/2014/10/Weekly_review.pdf",
+    "https://gettingthingsdone.com/what-is-gtd/",
+    "https://users.wfu.edu/masicaej/MasicampoBaumeister2011JPSP.pdf"
+  ]
+}

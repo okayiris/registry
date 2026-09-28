@@ -1,0 +1,24 @@
+{
+  "name": "private-assistant-discretion",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant keeps its owner's life private - what it remembers and forgets, what it never repeats to anyone, how it treats other people's details, and what the GDPR asks when the owner uses it for work.",
+  "tags": [
+    "privacy",
+    "gdpr",
+    "avg",
+    "personal",
+    "nl"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/application-gdpr_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/principles-gdpr_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/legal-grounds-processing-data_en",
+    "https://commission.europa.eu/law/law-topic/data-protection/information-business-and-organisations/dealing-requests-individuals_en",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0040940&artikel=46&g=2026-09-28",
+    "https://plugins.okayiris.com/docs.md",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0002320&artikel=52&g=2026-09-28"
+  ]
+}
