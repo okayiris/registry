@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:05.181Z",
+  "updated": "2026-09-28T08:41:10.058Z",
   "skills": [
     {
       "kind": "skill",
@@ -142,6 +142,31 @@
       ],
       "hash": "4737e61aae7ab42c4e227c7d5063f3351f991df7c466f1d230f15393c64e0938",
       "published": 1790584817568
+    },
+    {
+      "kind": "skill",
+      "name": "daily-and-weekly-review",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant runs a short start and end of the day and a weekly review with its owner - preparing everything so the owner only decides, and closing open loops so they can switch off.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "productivity",
+        "planning",
+        "review",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://gettingthingsdone.com/wp-content/uploads/2014/10/Weekly_review.pdf",
+        "https://gettingthingsdone.com/what-is-gtd/",
+        "https://users.wfu.edu/masicaej/MasicampoBaumeister2011JPSP.pdf"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "2a7775fb906aa6abd84207ff7013dda0a8ea24401b7900b9132caacdb974e43b",
+      "published": 1790584818133
     },
     {
       "kind": "skill",
