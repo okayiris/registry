@@ -1,0 +1,42 @@
+{
+  "name": "rdw",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Look up a Dutch licence plate in the RDW's open vehicle data: make, model, colour, first admission, APK expiry, fuel and emissions, and open recalls, free and without a key.",
+  "tags": [
+    "nl",
+    "vehicle",
+    "car",
+    "apk",
+    "recall",
+    "sources"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://www.rdw.nl/over-rdw/dienstverlening/open-data/algemene-informatie",
+    "https://www.rdw.nl/over-rdw/dienstverlening/open-data/bijsluiter",
+    "https://www.rdw.nl/over-rdw/dienstverlening/open-data/handleidingen",
+    "https://www.rdw.nl/-/media/rdwnl/documenten/informatieverstrekking/3-e-1891c--beschrijving-dataset-gekentekende-voertuigen-v54.pdf",
+    "https://www.rdw.nl/-/media/rdwnl/overrdw/documenten/naslagwerk/3-e-1892b--beschrijving-dataset-terugroepregister-20.pdf",
+    "https://opendata.rdw.nl/Voertuigen/Open-Data-RDW-Gekentekende_voertuigen/m9d7-ebf2",
+    "https://opendata.rdw.nl/Terugroepacties/Open-Data-RDW-Terugroep_actie_status/t49b-isb7",
+    "https://dev.socrata.com/docs/app-tokens.html",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "vehicle",
+      "description": "What a Dutch plate is: make, model, colour, first admission, APK expiry, fuel, emissions and whether a recall is open."
+    },
+    {
+      "name": "recalls",
+      "description": "The recalls registered for a plate: open or fixed, the defect, the risk and the remedy."
+    }
+  ]
+}
