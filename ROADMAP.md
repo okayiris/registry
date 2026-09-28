@@ -18,6 +18,9 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
 
 ## Done
 
+Everything on this roadmap has been built (September 2026). Country skills beyond the Netherlands
+wait until it is clear where owners live.
+
 - [x] `registry` 1.1.0 (MCP): also searches and reads the plugin marketplace; tool failures come back as
   `isError` results as the MCP spec asks, `ping` is answered, and reads stay on the three registry hosts,
   also across a redirect.
@@ -50,10 +53,10 @@ All read-only, no key, open data: they need only `internet`, which makes them ea
 |---|---|---|---|---|
 | 1 | ~~`web-fetch`~~ (done) | knowledge | Read one public page as Markdown, for the research step of a skill. The `search` plugin finds pages; nothing reads them yet. | internet |
 | 2 | ~~`dutch-laws`~~ (done) | knowledge | Look up Dutch legislation and a specific article on wetten.overheid.nl, with the version valid on a given date. Backs every NL skill with a primary source. | internet |
-| 3 | `pdok` | knowledge | Addresses, postcodes and buildings from the BAG through PDOK's locatieserver. | internet |
-| 4 | `rdw` | knowledge | Vehicle data by licence plate from the RDW open data. | internet |
-| 5 | `cbs` | knowledge | Figures from CBS StatLine (inflation, population, prices) with the table they came from. | internet |
-| 6 | `weather` | home | Forecast and warnings through a keyless open weather API. | internet |
+| 3 | ~~`pdok`~~ (done) | knowledge | Addresses, postcodes and buildings from the BAG through PDOK's locatieserver. | internet |
+| 4 | ~~`rdw`~~ (done) | knowledge | Vehicle data by licence plate from the RDW open data. | internet |
+| 5 | ~~`cbs`~~ (done) | knowledge | Figures from CBS StatLine (inflation, population, prices) with the table they came from. | internet |
+| 6 | ~~`weather`~~ (done) | home | Forecast and warnings through a keyless open weather API. | internet |
 
 Later, only when someone asks: `kvk` (company register, needs a key: likely a plugin rather than a server),
 `rechtspraak` (published court decisions, open data), and `streamable-http` listings for well-known hosted
@@ -68,33 +71,33 @@ Text only, sources named, `CC-BY-4.0` unless there is a reason for another.
 | # | Name | What it knows |
 |---|---|---|
 | 1 | ~~`writing-an-mcp-server`~~ (done) | stdio against streamable-http, the JSON-RPC handshake, tool errors against protocol errors, stdout for messages only, the smallest honest permission list, `env` as references. |
-| 2 | `reviewing-a-submission` | The reviewer's checklist for all three shelves: sources that say what the text says, nothing personal, no secrets, permissions that match the code. |
-| 3 | `source-checking` | Primary against secondary sources, a second independent one for anything surprising, the date a rule is valid from. |
-| 4 | `permissions-explained` | Each of the six permissions in plain words, to read out to an owner before an install. |
+| 2 | ~~`reviewing-a-submission`~~ (done) | The reviewer's checklist for all three shelves: sources that say what the text says, nothing personal, no secrets, permissions that match the code. |
+| 3 | ~~`source-checking`~~ (done) | Primary against secondary sources, a second independent one for anything surprising, the date a rule is valid from. |
+| 4 | ~~`permissions-explained`~~ (done) | Each of the six permissions in plain words, to read out to an owner before an install. |
 
 ### Next to a plugin that already exists
 
 | # | Name | Next to | What it knows |
 |---|---|---|---|
 | 5 | ~~`dutch-vat-zzp`~~ (done) | moneybird | VAT returns, the small business scheme (KOR), reverse charge, deadlines. |
-| 6 | `dutch-invoice-requirements` | moneybird, stripe | What a Dutch invoice must show, and how long to keep it. |
+| 6 | ~~`dutch-invoice-requirements`~~ (done) | moneybird, stripe | What a Dutch invoice must show, and how long to keep it. |
 | 7 | ~~`acting-on-behalf`~~ (done) | whatsapp, google-workspace, microsoft-365, x, socials | Drafting in the owner's voice, what always waits for a yes, what never gets sent. |
-| 8 | `scheduling` | calendars, family-agenda | Time zones, buffers, overlapping agendas, declining politely. |
-| 9 | `saas-metrics` | stripe | MRR, churn, refunds and what the numbers do and do not say. |
-| 10 | `ads-reporting` | google-ads | Reading spend, CPC, conversions and ROAS without overclaiming. |
-| 11 | `home-automation-safety` | homeassistant | What may be switched without asking (lights) and what never is (locks, heating at night, alarms). |
-| 12 | `git-workflow` | github | Branches, commits, pull requests and review etiquette. |
+| 8 | ~~`scheduling`~~ (done) | calendars, family-agenda | Time zones, buffers, overlapping agendas, declining politely. |
+| 9 | ~~`saas-metrics`~~ (done) | stripe | MRR, churn, refunds and what the numbers do and do not say. |
+| 10 | ~~`ads-reporting`~~ (done) | google-ads | Reading spend, CPC, conversions and ROAS without overclaiming. |
+| 11 | ~~`home-automation-safety`~~ (done) | homeassistant | What may be switched without asking (lights) and what never is (locks, heating at night, alarms). |
+| 12 | ~~`git-workflow`~~ (done) | github | Branches, commits, pull requests and review etiquette. |
 
 ### Dutch life and work
 
 | # | Name | What it knows |
 |---|---|---|
-| 13 | `dutch-tax` | Income tax for one employer and a side income (the example in the skills docs). |
-| 14 | `starting-as-zzp` | Registering at the KVK, VAT number, insurance, the hours criterion. |
-| 15 | `toeslagen` | Healthcare, rent and childcare allowance, and paying back. |
-| 16 | `huurrecht` | Rent increases, the points system, the rent tribunal. |
+| 13 | ~~`dutch-tax`~~ (done) | Income tax for one employer and a side income (the example in the skills docs). |
+| 14 | ~~`starting-as-zzp`~~ (done) | Registering at the KVK, VAT number, insurance, the hours criterion. |
+| 15 | ~~`toeslagen`~~ (done) | Healthcare, rent and childcare allowance, and paying back. |
+| 16 | ~~`huurrecht`~~ (done) | Rent increases, the points system, the rent tribunal. |
 | 17 | ~~`avg-basics`~~ | Replaced by the EU-wide `gdpr-basics` below. |
-| 18 | `government-doors` | Which matter goes through DigiD, MijnOverheid, the tax office or the municipality. |
+| 18 | ~~`government-doors`~~ (done) | Which matter goes through DigiD, MijnOverheid, the tax office or the municipality. |
 
 ### EU-wide
 
@@ -136,17 +139,17 @@ so they can carry our license and our review. Only text; the tool-heavy ones are
 
 | # | Name | What it knows | Primary sources |
 |---|---|---|---|
-| 31 | `frontend-design` | Choosing an aesthetic first, then type, colour, space and motion; avoiding the generic look. | W3C, web.dev, type and colour references |
-| 32 | `web-interface-guidelines` | Accessibility and interface details: focus, contrast, forms, touch targets, reduced motion. | WCAG 2.2, WAI-ARIA Authoring Practices |
-| 33 | `react-performance` | Waterfalls, bundle size, re-renders, server and client components. | react.dev, Next.js docs, web.dev Core Web Vitals |
-| 34 | `postgres-practices` | Indexes, query plans, connection pooling, row-level security, locking. | postgresql.org documentation |
-| 35 | `debugging-method` | Root cause before a fix, one hypothesis at a time, stop after three failed fixes. | Engineering practice, cited where possible |
-| 36 | `code-review` | Reviewing a change and asking for a review: correctness first, then clarity. | Google engineering practices |
-| 37 | `test-driven-development` | Red, green, refactor, and what a good failing test looks like. | Kent Beck, Martin Fowler |
-| 38 | `motion-design` | Interface motion that helps: timing, easing, purpose, and respecting reduced motion. | WCAG 2.2 (animation), platform motion guidelines |
-| 39 | `seo-basics` | What search engines actually document: crawling, titles, structured data, helpful content. | Google Search Central |
-| 40 | `plain-language` | Writing so everyone understands, in Dutch at B1 level and in English. | Rijksoverheid (B1), plainlanguage.gov |
-| 41 | `from-conversation-to-spec` | Turning a talk into a clear plan or spec, with open questions listed. | Requirements practice |
+| 31 | ~~`frontend-design`~~ (done) | Choosing an aesthetic first, then type, colour, space and motion; avoiding the generic look. | W3C, web.dev, type and colour references |
+| 32 | ~~`web-interface-guidelines`~~ (done) | Accessibility and interface details: focus, contrast, forms, touch targets, reduced motion. | WCAG 2.2, WAI-ARIA Authoring Practices |
+| 33 | ~~`react-performance`~~ (done) | Waterfalls, bundle size, re-renders, server and client components. | react.dev, Next.js docs, web.dev Core Web Vitals |
+| 34 | ~~`postgres-practices`~~ (done) | Indexes, query plans, connection pooling, row-level security, locking. | postgresql.org documentation |
+| 35 | ~~`debugging-method`~~ (done) | Root cause before a fix, one hypothesis at a time, stop after three failed fixes. | Engineering practice, cited where possible |
+| 36 | ~~`code-review`~~ (done) | Reviewing a change and asking for a review: correctness first, then clarity. | Google engineering practices |
+| 37 | ~~`test-driven-development`~~ (done) | Red, green, refactor, and what a good failing test looks like. | Kent Beck, Martin Fowler |
+| 38 | ~~`motion-design`~~ (done) | Interface motion that helps: timing, easing, purpose, and respecting reduced motion. | WCAG 2.2 (animation), platform motion guidelines |
+| 39 | ~~`seo-basics`~~ (done) | What search engines actually document: crawling, titles, structured data, helpful content. | Google Search Central |
+| 40 | ~~`plain-language`~~ (done) | Writing so everyone understands, in Dutch at B1 level and in English. | Rijksoverheid (B1), plainlanguage.gov |
+| 41 | ~~`from-conversation-to-spec`~~ (done) | Turning a talk into a clear plan or spec, with open questions listed. | Requirements practice |
 
 ## Plugins worth building (outside this repository)
 

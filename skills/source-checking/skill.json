@@ -1,0 +1,30 @@
+{
+  "name": "source-checking",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How to check a claim before relying on it - primary against secondary sources, a second independent source for anything surprising, the date a rule or figure holds for, reading laterally to learn who is behind a site, tracing a quote to its origin, and reading statistics without being fooled.",
+  "tags": [
+    "research",
+    "fact-checking",
+    "sources",
+    "misinformation",
+    "quotes",
+    "statistics",
+    "media-literacy"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://eric.ed.gov/?id=EJ1262001",
+    "https://cor.inquirygroup.org/",
+    "https://pubmed.ncbi.nlm.nih.gov/38039950/",
+    "https://pubmed.ncbi.nlm.nih.gov/37994317/",
+    "https://pubmed.ncbi.nlm.nih.gov/38740990/",
+    "https://guides.library.cornell.edu/sources",
+    "https://guides.library.cornell.edu/sources/secondary",
+    "https://guides.library.cornell.edu/sources/tertiary",
+    "https://quoteinvestigator.com/2017/03/23/same/",
+    "https://pubmed.ncbi.nlm.nih.gov/26161749/",
+    "https://skills.okayiris.com/docs.md"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "seo-basics",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "What search engines actually document about being found - crawling and indexing, titles and snippets, helpful people-first content, structured data, sitemaps, robots.txt, noindex, canonical URLs, Core Web Vitals, and the spam policies to stay clear of.",
+  "tags": [
+    "seo",
+    "search",
+    "web",
+    "content",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+    "https://developers.google.com/search/docs/fundamentals/how-search-works",
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content",
+    "https://developers.google.com/search/docs/essentials/spam-policies",
+    "https://developers.google.com/search/docs/appearance/title-link",
+    "https://web.dev/articles/vitals",
+    "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+    "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+    "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls",
+    "https://developers.google.com/search/docs/appearance/page-experience"
+  ]
+}

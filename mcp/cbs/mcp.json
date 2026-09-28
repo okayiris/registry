@@ -1,0 +1,48 @@
+{
+  "name": "cbs",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Find a CBS StatLine table and read its latest figures, or get Dutch inflation, unemployment and population straight away, from Statistics Netherlands' own open data with the table, period and status to cite.",
+  "tags": [
+    "nl",
+    "statistics",
+    "cbs",
+    "inflation",
+    "open-data",
+    "sources"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://www.cbs.nl/nl-nl/onze-diensten/open-data",
+    "https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data",
+    "https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data/snelstartgids-odata-v4",
+    "https://www.cbs.nl/nl-nl/over-ons/website/copyright",
+    "https://opendata.cbs.nl/ODataCatalog/",
+    "https://opendata.cbs.nl/ODataApi/odata/86141NED",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "search_tables",
+      "description": "Find CBS tables by words in their title."
+    },
+    {
+      "name": "describe_table",
+      "description": "What a table holds: period, topics, dimensions and category keys."
+    },
+    {
+      "name": "read_table",
+      "description": "The latest values of one topic, with each period's status."
+    },
+    {
+      "name": "key_figure",
+      "description": "Latest inflation, unemployment rate or population."
+    }
+  ]
+}

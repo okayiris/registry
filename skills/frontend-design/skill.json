@@ -1,0 +1,32 @@
+{
+  "name": "frontend-design",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Building web interfaces that are distinctive and easy to use - decide the purpose and an aesthetic direction first, then typography, colour, spacing and layout, and motion, checked against WCAG and on real devices instead of settling for the generic template look.",
+  "tags": [
+    "design",
+    "frontend",
+    "typography",
+    "colour",
+    "layout",
+    "css",
+    "accessibility",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.w3.org/TR/WCAG22/",
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html",
+    "https://web.dev/learn/design/typography",
+    "https://web.dev/learn/design/macro-layouts",
+    "https://web.dev/learn/design/theming",
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties",
+    "https://practicaltypography.com/summary-of-key-rules.html",
+    "https://practicaltypography.com/point-size.html",
+    "https://practicaltypography.com/line-length.html",
+    "https://developer.apple.com/design/human-interface-guidelines/typography",
+    "https://developer.apple.com/design/human-interface-guidelines/color"
+  ]
+}

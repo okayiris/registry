@@ -1,0 +1,44 @@
+{
+  "name": "pdok",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Find a Dutch address and read its official form from the BAG through PDOK: municipality, province, coordinates, BAG ids and the building's construction year and use, free and without a key.",
+  "tags": [
+    "nl",
+    "address",
+    "geocoding",
+    "bag",
+    "buildings",
+    "sources"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://www.pdok.nl/pdok-locatieserver",
+    "https://api.pdok.nl/bzk/locatieserver/search/v3_1/openapi.json",
+    "https://api.pdok.nl/kadaster/bag/ogc/v2?f=html",
+    "https://api.pdok.nl/kadaster/bag/ogc/v2/collections/verblijfsobject?f=json",
+    "https://www.pdok.nl/pdc-afnemers-van-data",
+    "https://www.pdok.nl/copyright",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "search_addresses",
+      "description": "Find Dutch addresses from free text, with their ids."
+    },
+    {
+      "name": "address",
+      "description": "The official address by id or postcode and house number, with its BAG ids, place, coordinates and building."
+    },
+    {
+      "name": "address_at",
+      "description": "The addresses nearest to a point in the Netherlands."
+    }
+  ]
+}

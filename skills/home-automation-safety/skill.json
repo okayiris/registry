@@ -1,0 +1,31 @@
+{
+  "name": "home-automation-safety",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "What a home assistant may switch on its own and what always waits for the owner's yes - locks, alarms, garage doors, heating, cooking and other heat sources, anything with safety or cost impact, an empty house, smoke alarms and cameras.",
+  "tags": [
+    "home-automation",
+    "smart-home",
+    "safety",
+    "fire-safety",
+    "smoke-alarms",
+    "privacy",
+    "netherlands"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/apps/homeassistant",
+    "https://www.home-assistant.io/voice_control/voice_remote_expose_devices/",
+    "https://www.home-assistant.io/integrations/lock/",
+    "https://www.home-assistant.io/integrations/alarm_control_panel/",
+    "https://www.home-assistant.io/integrations/cover/",
+    "https://www.brandweer.nl/onderwerpen/rookmelders/",
+    "https://www.brandweer.nl/onderwerpen/elektrische-apparaten/",
+    "https://www.brandweer.nl/wp-content/uploads/2021/07/elektrische_apparatuur-2017.pdf",
+    "https://www.brandweer.nl/wp-content/uploads/2021/06/brandveilig-wonen-2020-los.pdf",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0041297&artikel=3.117&g=2026-09-28",
+    "https://www.rijksoverheid.nl/onderwerpen/overvallen-straatroof-en-woninginbraak/regels-cameratoezicht",
+    "https://www.politie.nl/informatie/wat-zijn-de-regels-als-ik-camerabeelden-maak.html"
+  ]
+}

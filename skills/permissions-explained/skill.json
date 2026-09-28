@@ -1,0 +1,22 @@
+{
+  "name": "permissions-explained",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "The six permissions an Iris plugin or MCP server can ask for (internet, files, secrets, phone, voice, messages) in plain words - what each lets it do, what to ask before saying yes, and how an update that asks for more is handled.",
+  "tags": [
+    "permissions",
+    "install",
+    "security",
+    "privacy",
+    "plugins",
+    "mcp",
+    "registry"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/docs.md",
+    "https://mcp.okayiris.com/docs.md",
+    "https://skills.okayiris.com/docs.md"
+  ]
+}

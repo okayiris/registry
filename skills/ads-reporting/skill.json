@@ -1,0 +1,28 @@
+{
+  "name": "ads-reporting",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How an assistant reads Google Ads numbers for its owner - impressions, clicks, CTR, CPC, conversions, conversion rate, cost per conversion and ROAS - with the attribution and timing caveats, without overclaiming, and without ever changing a campaign on its own.",
+  "tags": [
+    "advertising",
+    "google-ads",
+    "marketing",
+    "metrics",
+    "attribution",
+    "business"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/apps/google-ads",
+    "https://support.google.com/google-ads/answer/6320?hl=en",
+    "https://support.google.com/google-ads/answer/31799?hl=en",
+    "https://support.google.com/google-ads/answer/2615875?hl=en",
+    "https://support.google.com/google-ads/answer/14074?hl=en",
+    "https://support.google.com/google-ads/answer/6297?hl=en",
+    "https://support.google.com/google-ads/answer/6270625?hl=en",
+    "https://support.google.com/google-ads/answer/6259715?hl=en",
+    "https://support.google.com/google-ads/answer/7457111?hl=en",
+    "https://developers.google.com/google-ads/api/fields/v25/metrics"
+  ]
+}

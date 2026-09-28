@@ -1,0 +1,27 @@
+{
+  "name": "saas-metrics",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How an assistant reads subscription numbers from Stripe for its owner - MRR, ARR, customer and revenue churn, net and gross revenue retention, refunds and failed payments - and says what the numbers do and do not show, without overclaiming.",
+  "tags": [
+    "saas",
+    "metrics",
+    "subscriptions",
+    "stripe",
+    "churn",
+    "revenue",
+    "business"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/apps/stripe",
+    "https://docs.stripe.com/billing/subscriptions/analytics",
+    "https://docs.stripe.com/billing/subscriptions/overview",
+    "https://docs.stripe.com/billing/revenue-recovery/smart-retries",
+    "https://support.stripe.com/questions/understanding-monthly-recurring-revenue-%28mrr%29-and-annual-recurring-revenue-%28arr%29",
+    "https://stripe.com/resources/more/what-is-annual-recurring-revenue-a-guide-for-saas-businesses",
+    "https://stripe.com/resources/more/revenue-churn-101-how-to-calculate-it-and-why-it-matters",
+    "https://stripe.com/resources/more/net-revenue-retention"
+  ]
+}

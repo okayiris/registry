@@ -1,0 +1,30 @@
+{
+  "name": "plain-language",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Writing so everyone understands - Dutch at language level B1 as the Dutch central government does it, English plain language as the US federal guides and the ISO plain language standard describe it, with short sentences, active voice, common words, a clear structure, and testing with readers.",
+  "tags": [
+    "writing",
+    "plain-language",
+    "b1",
+    "dutch",
+    "accessibility",
+    "communication",
+    "readability"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.communicatierijk.nl/vakkennis/rijkswebsites/aanbevolen-richtlijnen/taalniveau-b1",
+    "https://www.communicatierijk.nl/vakkennis/uitgangspunten-en-organisatie/inclusieve-communicatie/begrijpelijke-communicatie",
+    "https://www.communicatierijk.nl/vakkennis/uitgangspunten-en-organisatie/inclusieve-communicatie/tips-voor-inclusieve-communicatie/tips-voor-inclusief-taalgebruik",
+    "https://digital.gov/guides/plain-language/principles",
+    "https://digital.gov/guides/plain-language/writing",
+    "https://digital.gov/guides/plain-language/writing/clear-short",
+    "https://digital.gov/guides/plain-language/design",
+    "https://digital.gov/guides/plain-language/test",
+    "https://digital.gov/guides/plain-language/test/paraphrase-testing",
+    "https://www.iplfederation.org/iso-standard/",
+    "https://www.iplfederation.org/plain-language-definitions/"
+  ]
+}

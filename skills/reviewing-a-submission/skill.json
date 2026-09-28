@@ -1,0 +1,21 @@
+{
+  "name": "reviewing-a-submission",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "The reviewer's checklist for skills, MCP servers and plugins handed in to the Iris registries - sources that say what the text says, nothing personal, no secrets, permissions that match the code, self-contained stdio packages, names, versions and licenses, and what the store already refused.",
+  "tags": [
+    "registry",
+    "review",
+    "sharing",
+    "security",
+    "permissions",
+    "sources"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://skills.okayiris.com/docs.md",
+    "https://mcp.okayiris.com/docs.md",
+    "https://plugins.okayiris.com/docs.md"
+  ]
+}

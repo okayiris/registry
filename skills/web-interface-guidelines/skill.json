@@ -1,0 +1,31 @@
+{
+  "name": "web-interface-guidelines",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Accessibility and interface details for web pages and apps - the WCAG 2.2 criteria that matter most day to day (contrast, focus, target size, keyboard, labels, errors, motion), native HTML before ARIA, accessible forms, and a short review checklist that reports findings as file:line.",
+  "tags": [
+    "accessibility",
+    "wcag",
+    "web",
+    "design",
+    "forms",
+    "code-review",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.w3.org/TR/WCAG22/",
+    "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+    "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",
+    "https://www.w3.org/WAI/tutorials/forms/notifications/",
+    "https://www.w3.org/WAI/ARIA/apg/practices/read-me-first/",
+    "https://www.w3.org/WAI/tutorials/forms/labels/",
+    "https://www.w3.org/WAI/tutorials/forms/instructions/",
+    "https://www.w3.org/WAI/tutorials/forms/validation/",
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible"
+  ]
+}

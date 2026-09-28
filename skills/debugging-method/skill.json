@@ -1,0 +1,21 @@
+{
+  "name": "debugging-method",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "A systematic way to find and fix a bug - reproduce it, read what it says, test one hypothesis at a time, shrink the case, bisect the history, fix the cause rather than the symptom, add a test, and stop to rethink when fixes keep failing - from Zeller's Debugging Book, the Google SRE book and the git bisect manual.",
+  "tags": [
+    "debugging",
+    "engineering",
+    "git",
+    "troubleshooting",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.debuggingbook.org/html/Intro_Debugging.html",
+    "https://www.debuggingbook.org/html/DeltaDebugger.html",
+    "https://sre.google/sre-book/effective-troubleshooting/",
+    "https://git-scm.com/docs/git-bisect"
+  ]
+}

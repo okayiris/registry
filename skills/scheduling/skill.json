@@ -1,0 +1,29 @@
+{
+  "name": "scheduling",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant finds a time, handles time zones and clock changes, keeps buffers, reads overlapping family agendas, sends invitations only after the owner's yes, declines politely and sets up recurring events.",
+  "tags": [
+    "calendar",
+    "scheduling",
+    "time-zones",
+    "daylight-saving",
+    "family",
+    "productivity"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/apps/calendars",
+    "https://plugins.okayiris.com/apps/family-agenda",
+    "https://plugins.okayiris.com/apps/google-workspace",
+    "https://plugins.okayiris.com/apps/microsoft-365",
+    "https://transport.ec.europa.eu/transport-themes/summertime_en",
+    "https://www.europarl.europa.eu/RegData/etudes/STUD/2017/611006/EPRS_STU(2017)611006_EN.pdf",
+    "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+    "https://www.iana.org/time-zones",
+    "https://data.iana.org/time-zones/theory.html",
+    "https://www.rfc-editor.org/rfc/rfc5545",
+    "https://www.rfc-editor.org/rfc/rfc5546"
+  ]
+}

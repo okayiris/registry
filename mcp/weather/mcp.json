@@ -1,0 +1,41 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Current weather and the forecast up to 16 days for a place by name or coordinates, from Open-Meteo without a key: free for non-commercial use within its daily limits, credited as CC BY 4.0.",
+  "tags": [
+    "weather",
+    "forecast",
+    "geocoding",
+    "open-data"
+  ],
+  "category": "home",
+  "license": "MIT",
+  "sources": [
+    "https://open-meteo.com/en/docs",
+    "https://open-meteo.com/en/docs/geocoding-api",
+    "https://open-meteo.com/en/terms",
+    "https://open-meteo.com/en/licence",
+    "https://developer.dataplatform.knmi.nl/open-data-api",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "find_place",
+      "description": "Places matching a name, with coordinates and time zone."
+    },
+    {
+      "name": "current",
+      "description": "The weather now at a place: condition, temperature, rain, cloud and wind."
+    },
+    {
+      "name": "forecast",
+      "description": "Day-by-day forecast up to 16 days, optionally hour by hour for the next hours."
+    }
+  ]
+}
