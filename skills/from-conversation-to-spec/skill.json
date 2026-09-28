@@ -1,0 +1,26 @@
+{
+  "name": "from-conversation-to-spec",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How to turn a conversation into a clear plan or spec - the goal, who it is for, requirements marked must, should or may, what is out of scope, open questions, acceptance criteria and a decisions log - and how to confirm it with the owner before anyone builds.",
+  "tags": [
+    "planning",
+    "requirements",
+    "spec",
+    "user-needs",
+    "decisions",
+    "writing",
+    "projects"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.rfc-editor.org/rfc/rfc2119",
+    "https://www.rfc-editor.org/rfc/rfc8174",
+    "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+    "https://www.gov.uk/service-manual/agile-delivery/writing-user-stories",
+    "https://www.nngroup.com/articles/user-need-statements/",
+    "https://www.cognitect.com/blog/2011/11/15/documenting-architecture-decisions",
+    "https://digital.gov/guides/plain-language/test/paraphrase-testing"
+  ]
+}
