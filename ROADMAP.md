@@ -34,6 +34,9 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
 - [x] `coaching-conversation`, `learning-something-new` and `encouragement` 1.0.0 (skills).
 - [x] `building-habits`, `making-decisions` and `difficult-conversations` 1.0.0 (skills): all twelve
   personal and soft skills are done.
+- [x] International: `calm-and-rest` 1.1.0 and `difficult-conversations` 1.1.0 refer by country (112, the EU
+  116 numbers, Find A Helpline) instead of only Dutch services; `coaching-conversation` 1.0.1 follows.
+- [x] EU-wide: `gdpr-basics`, `eu-vat-for-freelancers`, `eu-consumer-rights` and `eu-ai-act-basics` 1.0.0.
 
 All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
 modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
@@ -90,8 +93,19 @@ Text only, sources named, `CC-BY-4.0` unless there is a reason for another.
 | 14 | `starting-as-zzp` | Registering at the KVK, VAT number, insurance, the hours criterion. |
 | 15 | `toeslagen` | Healthcare, rent and childcare allowance, and paying back. |
 | 16 | `huurrecht` | Rent increases, the points system, the rent tribunal. |
-| 17 | `avg-basics` | What the GDPR allows with personal data, for a small business. |
+| 17 | ~~`avg-basics`~~ | Replaced by the EU-wide `gdpr-basics` below. |
 | 18 | `government-doors` | Which matter goes through DigiD, MijnOverheid, the tax office or the municipality. |
+
+### EU-wide
+
+One source, EU law, for all 27 member countries. Country-specific skills follow only where owners live.
+
+| # | Name | What it knows |
+|---|---|---|
+| 42 | ~~`gdpr-basics`~~ (done) | The owner's own data rights with a ready request, and the basics for a small business. |
+| 43 | ~~`eu-vat-for-freelancers`~~ (done) | Cross-border VAT for services and goods, reverse charge, distance sales, the domestic and cross-border SME scheme. |
+| 44 | ~~`eu-consumer-rights`~~ (done) | The 14-day right of withdrawal, the 2-year legal guarantee, digital content, European Consumer Centres. |
+| 45 | ~~`eu-ai-act-basics`~~ (done) | Risk levels, the nine bans, transparency since August 2026, AI literacy, dates after the 2026 amendments. |
 
 ### Personal and soft skills
 
@@ -141,6 +155,10 @@ Found while checking the marketplace; they belong at plugins.okayiris.com, not h
 the plugin's own database, no bank API), `notes` (a Markdown folder to search and add to).
 
 ## Order of work
+
+Country-specific skills beyond the Netherlands are added for the countries where owners live; which
+those are is still to be decided.
+
 
 1. `registry` 1.1.0 and `okayiris-registry` 1.1.0 (done, waiting for review).
 2. `writing-an-mcp-server`, `web-fetch` and `dutch-laws` (done, waiting for review): they make every later

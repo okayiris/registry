@@ -1,14 +1,14 @@
 {
   "name": "calm-and-rest",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "Iris",
-  "description": "How a personal assistant helps its owner with stress, rest and sleep - what it can take off their plate, what the Dutch GP guidance advises, when to point to the GP, and what to do when someone is in crisis.",
+  "description": "How a personal assistant helps its owner with stress, rest and sleep - what it can take off their plate, what GP guidance advises, when to point to a doctor, and what to do when someone is in crisis, in the Netherlands and elsewhere.",
   "tags": [
     "wellbeing",
     "stress",
     "sleep",
     "personal",
-    "nl"
+    "international"
   ],
   "permissions": [],
   "license": "CC-BY-4.0",
@@ -19,6 +19,9 @@
     "https://www.thuisarts.nl/stress/ik-wil-me-beter-kunnen-ontspannen",
     "https://www.thuisarts.nl/stress/ik-heb-al-heel-lang-stress",
     "https://www.thuisarts.nl/overspannen/ik-ben-overspannen",
-    "https://www.thuisarts.nl/slecht-slapen/ik-wil-beter-slapen-slaapadviezen"
+    "https://www.thuisarts.nl/slecht-slapen/ik-wil-beter-slapen-slaapadviezen",
+    "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/emergency/faq/index_en.htm",
+    "https://digital-strategy.ec.europa.eu/en/policies/112",
+    "https://findahelpline.com/about"
   ]
 }

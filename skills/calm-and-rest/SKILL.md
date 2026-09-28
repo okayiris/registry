@@ -1,6 +1,6 @@
 ---
 name: calm-and-rest
-description: How a personal assistant helps its owner with stress, rest and sleep - what it can take off their plate, what the Dutch GP guidance advises, when to point to the GP, and what to do when someone is in crisis.
+description: How a personal assistant helps its owner with stress, rest and sleep - what it can take off their plate, what GP guidance advises, when to point to a doctor, and what to do when someone is in crisis, in the Netherlands and elsewhere.
 whenToUse: When the owner says "ik ben kapot", "ik slaap slecht", "het is me allemaal te veel", "ik kan niet meer", "I'm so stressed", when you notice many late nights, cancelled plans or short tired replies, or when anything they say touches on not wanting to live.
 ---
 
@@ -10,8 +10,11 @@ whenToUse: When the owner says "ik ben kapot", "ik slaap slecht", "het is me all
 
 A personal assistant sees a lot: the agenda filling up, mail at midnight, plans cancelled. It can help an
 owner rest. It is **not** a therapist, a doctor or a crisis line, and it never acts like one. This skill
-says what it can do, what the Dutch GPs' own public guidance (Thuisarts.nl, by the NHG) advises, and when
-to point to a person.
+says what it can do, what GP guidance advises, and when to point to a person.
+
+The advice below follows the Dutch GPs' own public guidance (Thuisarts.nl, by the NHG), because it is
+written for patients and sourced. The advice on rest and sleep holds anywhere. **Where to refer depends on
+the country the owner is in**: know it, and use that country's numbers.
 
 ## First: is this a crisis?
 
@@ -23,9 +26,17 @@ themselves, everything else stops. 113 Zelfmoordpreventie advises:
 - **Listen**, without judgement and without advice.
 - **Do not assume they will seek help themselves** or that it will pass. Make it concrete: call the GP
   together, or talk to someone they trust.
-- **113 is free, anonymous and open day and night**, by phone (113) or by chat on 113.nl. From outside the
-  Netherlands, the chat works. People who prefer English can ask for someone who speaks it.
-- **Life in danger right now: 112.**
+- **Life in danger right now: the emergency number.** 112 works free of charge everywhere in the EU,
+  alongside national numbers, and in some countries outside it (such as Switzerland and South Africa).
+- **A crisis line, by country:**
+  - **Netherlands:** 113 Zelfmoordpreventie, free, anonymous and open day and night, by phone (113) or by
+    chat on 113.nl. From outside the Netherlands the chat works, and people can ask for someone who speaks
+    English.
+  - **Elsewhere:** Find A Helpline (findahelpline.com, run with the International Association for Suicide
+    Prevention) lists helplines verified by the helplines themselves in more than 175 countries, by phone,
+    text or chat. Look up the owner's country there rather than giving a number from memory.
+  - **In the EU**, 116 123 is the shared number for an emotional support helpline, though not every country
+    has it yet.
 
 Say this plainly and warmly, and stay with the owner in the conversation. Offer to call or open the chat
 with them. Do not treat it as a task to hand off and forget.
@@ -86,7 +97,8 @@ wants one, and keep the morning free for going out. **Never suggest a pill or a 
 
 ## When to suggest the GP
 
-Suggest the GP or the practice nurse (praktijkondersteuner) gently, once, and offer to make the
+Outside the Netherlands: the owner's own family doctor or primary care. In the Netherlands, suggest the GP
+or the practice nurse (praktijkondersteuner) gently, once, and offer to make the
 appointment. They can help with a few conversations, and refer on when more is needed. Suggest it:
 
 - when stress has lasted long, or everyday things no longer work out;
@@ -115,5 +127,6 @@ manager does not need to know they went.
 ## Where this stops
 
 This follows the public patient guidance of the Dutch GPs (Thuisarts.nl) and of 113 Zelfmoordpreventie as
-of September 2026. It is for adults in the Netherlands. It is not medical advice, not therapy, and not a
-crisis service. When in doubt, point to the GP, 113 or 112.
+of September 2026, with the EU's emergency and helpline numbers and Find A Helpline for other countries. It
+is for adults. It is not medical advice, not therapy, and not a crisis service. When in doubt, point to a
+doctor, a crisis line or the emergency number of the country the owner is in.

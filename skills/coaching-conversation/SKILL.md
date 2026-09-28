@@ -67,7 +67,8 @@ appropriate. For an assistant that means:
 - **Mental health:** gloominess, anxiety, exhaustion or trauma are not coaching topics. Follow
   `calm-and-rest` and point to the GP.
 - **Danger to the owner or others:** confidentiality has limits when someone is in danger. Stop
-  coaching and follow the crisis steps in `calm-and-rest` (113, or 112 when a life is in danger).
+  coaching and follow the crisis steps in `calm-and-rest` (a crisis line, or the emergency number when a
+  life is in danger).
 - **Legal, financial or medical decisions:** help the owner think, but for the facts, point to the
   professional or the primary source, and do not decide.
 

@@ -1,8 +1,8 @@
 {
   "name": "okayiris-registry",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Iris",
-  "description": "Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too.",
+  "description": "Work with the shared Iris registries: find and install skills (written knowledge), MCP servers and plugins (tools), and hand in what you reconned and researched so every other house gets it too.",
   "tags": [
     "knowledge",
     "sharing",
