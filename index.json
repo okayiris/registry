@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:28.633Z",
+  "updated": "2026-09-28T08:41:33.172Z",
   "skills": [
     {
       "kind": "skill",
@@ -282,6 +282,30 @@
       ],
       "hash": "fbc50adc4f13010ead823c2edaf8225cedf0ee0a8efb22741940fca842561e24",
       "published": 1790584820324
+    },
+    {
+      "kind": "skill",
+      "name": "making-decisions",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant helps its owner make a decision without making it for them - how much care it deserves, laying out the options with their pros and cons, what they mean for this owner, and checking against the opposite.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "decisions",
+        "thinking",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://s2.q4cdn.com/299287126/files/doc_financials/annual/2015-Letter-to-Shareholders.PDF",
+        "https://3goedevragen.nl/de-3-goede-vragen/",
+        "https://pubmed.ncbi.nlm.nih.gov/6527215/"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "f5f4b1be29402ce3aa036ff7dc953a56bc118d13e7d2160a3c7109117f533348",
+      "published": 1790584820903
     },
     {
       "kind": "skill",
