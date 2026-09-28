@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:42:01.669Z",
+  "updated": "2026-09-28T08:42:06.481Z",
   "skills": [
     {
       "kind": "skill",
@@ -487,9 +487,9 @@
     {
       "kind": "mcp",
       "name": "registry",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "author": "Iris",
-      "description": "Search the shared skills and read an MCP server's entry, so an assistant can use what every other house already reconned.",
+      "description": "Search the shared skills, the MCP directory and the plugin marketplace, so an assistant can use what every other house already reconned or built.",
       "license": "MIT",
       "tags": [
         "knowledge",
@@ -501,13 +501,15 @@
       "sources": [
         "https://skills.okayiris.com/docs.md",
         "https://mcp.okayiris.com/docs.md",
+        "https://plugins.okayiris.com/docs.md",
         "https://modelcontextprotocol.io/specification"
       ],
       "versions": [
+        "1.1.0",
         "1.0.0"
       ],
-      "hash": "879bc99f2860d074103816563d0246506b1cba549ef8b52b4f40709c7e3df0ea",
-      "published": 0
+      "hash": "b45b854337f734265940a7f7af0b9e3f94f2d0a2cd286a1d8e5fdee725047e5c",
+      "published": 1790584814090
     }
   ]
 }
