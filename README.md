@@ -33,6 +33,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 
 | Name | What it is | By | License |
 |---|---|---|---|
+| [dutch-laws](mcp/dutch-laws) | Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite. | Iris | MIT |
 | [registry](mcp/registry) | Search the shared skills and read an MCP server's entry, so an assistant can use what every other house already reconned. | Iris | MIT |
 
 ## Adding one

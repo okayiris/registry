@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:57.110Z",
+  "updated": "2026-09-28T08:42:01.669Z",
   "skills": [
     {
       "kind": "skill",
@@ -454,6 +454,36 @@
     }
   ],
   "mcp": [
+    {
+      "kind": "mcp",
+      "name": "dutch-laws",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "Find a Dutch law and read one article exactly as it was in force on a given date, from the government's own open data, with a link to cite.",
+      "license": "MIT",
+      "tags": [
+        "nl",
+        "law",
+        "legislation",
+        "sources"
+      ],
+      "permissions": [
+        "internet"
+      ],
+      "sources": [
+        "https://standaarden.overheid.nl/bwb",
+        "https://standaarden.overheid.nl/sru",
+        "https://standaarden.overheid.nl/juriconnect",
+        "https://repository.officiele-overheidspublicaties.nl/Schema/BWB-toestand/2016-1/xsd/toestand_2016-1.xsd",
+        "https://www.overheid.nl/help/wet-en-regelgeving",
+        "https://modelcontextprotocol.io/specification/2026-07-28/server/tools"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "1094402db5db3ad0db1c8a955697d1ce8fd37ffb5ac2d028d19ca60aa8fd706e",
+      "published": 1790584813513
+    },
     {
       "kind": "mcp",
       "name": "registry",
