@@ -27,7 +27,8 @@ one hash over its files. Publishing is one-way from there: a version never chang
 
 ## What comes next
 
-What we still want to build, and why it is a skill, a server or a plugin: [ROADMAP.md](ROADMAP.md).
+What we still want to build, and why it is a skill, a server or a plugin: [ROADMAP.md](ROADMAP.md). What
+other agent systems install most, and where the gap is: [LANDSCAPE.md](LANDSCAPE.md).
 
 ## Adding one
 
