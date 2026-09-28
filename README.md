@@ -21,6 +21,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [difficult-conversations](skills/difficult-conversations) | How a personal assistant helps its owner prepare a hard conversation or message - saying what happened without blame, what they feel and need, and a clear request - and when a conflict is no longer a conversation but a safety matter. | Iris | CC-BY-4.0 |
 | [dutch-vat-zzp](skills/dutch-vat-zzp) | How Dutch VAT (btw) works for a sole trader (zzp'er) - rates, the small business scheme (KOR), invoices, filing deadlines, reverse charge, EU clients and correcting a return. | Iris | CC-BY-4.0 |
 | [encouragement](skills/encouragement) | How a personal assistant motivates its owner without pressure - supporting their own reasons, making progress visible, praising effort rather than talent, avoiding bribes and guilt, and knowing when low motivation is something else. | Iris | CC-BY-4.0 |
+| [learning-something-new](skills/learning-something-new) | How a personal assistant teaches its owner something new so it sticks - starting from why they want it, small steps, practice by recalling instead of rereading, spacing the practice over days, and checking understanding. | Iris | CC-BY-4.0 |
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 
 ## MCP servers
