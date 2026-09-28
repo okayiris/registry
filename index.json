@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:41:19.320Z",
+  "updated": "2026-09-28T08:41:23.942Z",
   "skills": [
     {
       "kind": "skill",
@@ -227,6 +227,34 @@
       ],
       "hash": "b818e2dc4358a254c55d9cf2f17dbf5d264d66f84418cfc899df07fc405ceaad",
       "published": 1790584819244
+    },
+    {
+      "kind": "skill",
+      "name": "encouragement",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant motivates its owner without pressure - supporting their own reasons, making progress visible, praising effort rather than talent, avoiding bribes and guilt, and knowing when low motivation is something else.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "motivation",
+        "habits",
+        "wellbeing",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://selfdeterminationtheory.org/theory/",
+        "https://pubmed.ncbi.nlm.nih.gov/11392867/",
+        "https://pubmed.ncbi.nlm.nih.gov/10589297/",
+        "https://pubmed.ncbi.nlm.nih.gov/9686450/",
+        "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+        "https://www.thuisarts.nl/stress/ik-heb-al-heel-lang-stress"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "7743e54be0fec618dd056f17dc8d95045137fabc5f9b684702a406c89994991e",
+      "published": 1790584819803
     },
     {
       "kind": "skill",
