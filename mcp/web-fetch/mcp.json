@@ -1,0 +1,31 @@
+{
+  "name": "web-fetch",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Read one public web page as Markdown, so an assistant can read a source itself instead of answering from memory.",
+  "tags": [
+    "research",
+    "web",
+    "sources"
+  ],
+  "category": "knowledge",
+  "license": "MIT",
+  "sources": [
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+    "https://mcp.okayiris.com/docs.md",
+    "https://docs.python.org/3/library/urllib.request.html",
+    "https://docs.python.org/3/library/ipaddress.html"
+  ],
+  "permissions": [
+    "internet"
+  ],
+  "transport": "stdio",
+  "command": "server.py",
+  "tools": [
+    {
+      "name": "fetch",
+      "description": "Read one public page as Markdown, in parts when it is long."
+    }
+  ]
+}

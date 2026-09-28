@@ -1,0 +1,24 @@
+{
+  "name": "writing-an-mcp-server",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How to write an MCP server for the shared registry that works with old and new MCP clients, asks for no more than it needs, and passes review the first time.",
+  "tags": [
+    "mcp",
+    "developer",
+    "sharing"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://mcp.okayiris.com/docs.md",
+    "https://plugins.okayiris.com/docs.md",
+    "https://modelcontextprotocol.io/specification/2026-07-28/changelog",
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/versioning",
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/transports/stdio",
+    "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+    "https://modelcontextprotocol.io/specification/2026-07-28/basic/index",
+    "https://modelcontextprotocol.io/specification/2025-11-25/basic/lifecycle",
+    "https://www.jsonrpc.org/specification"
+  ]
+}
