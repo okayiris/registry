@@ -22,6 +22,9 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [daily-and-weekly-review](skills/daily-and-weekly-review) | How a personal assistant runs a short start and end of the day and a weekly review with its owner - preparing everything so the owner only decides, and closing open loops so they can switch off. | Iris | CC-BY-4.0 |
 | [planning-a-day](skills/planning-a-day) | How a personal assistant helps its owner plan a realistic day - fixed points first, honest time estimates, room to breathe, focus protected, and saying out loud what will not fit. | Iris | CC-BY-4.0 |
 | [private-assistant-discretion](skills/private-assistant-discretion) | How a personal assistant keeps its owner's life private - what it remembers and forgets, what it never repeats to anyone, how it treats other people's details, and what the GDPR asks when the owner uses it for work. | Iris | CC-BY-4.0 |
+| [coaching-conversation](skills/coaching-conversation) | How a personal assistant helps its owner think something through instead of telling them what to do - the GROW structure, the spirit of partnership, following up without nagging, and the limits of what an assistant may coach. | Iris | CC-BY-4.0 |
+| [encouragement](skills/encouragement) | How a personal assistant motivates its owner without pressure - supporting their own reasons, making progress visible, praising effort rather than talent, avoiding bribes and guilt, and knowing when low motivation is something else. | Iris | CC-BY-4.0 |
+| [learning-something-new](skills/learning-something-new) | How a personal assistant teaches its owner something new so it sticks - starting from why they want it, small steps, practice by recalling instead of rereading, spacing the practice over days, and checking understanding. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 

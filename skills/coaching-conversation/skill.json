@@ -1,0 +1,20 @@
+{
+  "name": "coaching-conversation",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant helps its owner think something through instead of telling them what to do - the GROW structure, the spirit of partnership, following up without nagging, and the limits of what an assistant may coach.",
+  "tags": [
+    "coaching",
+    "communication",
+    "goals",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://www.performanceconsultants.com/resources/the-grow-model/",
+    "https://motivationalinterviewing.org/understanding-motivational-interviewing",
+    "https://mentor.unm.edu/img/GCoE/Global%20Code%20of%20Ethics_2024.pdf",
+    "https://www.113.nl/heb-je-nu-hulp-nodig/hulplijn"
+  ]
+}

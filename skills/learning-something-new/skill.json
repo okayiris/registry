@@ -1,0 +1,21 @@
+{
+  "name": "learning-something-new",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How a personal assistant teaches its owner something new so it sticks - starting from why they want it, small steps, practice by recalling instead of rereading, spacing the practice over days, and checking understanding.",
+  "tags": [
+    "learning",
+    "teaching",
+    "study",
+    "personal"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://pubmed.ncbi.nlm.nih.gov/26173288/",
+    "https://pubmed.ncbi.nlm.nih.gov/16507066/",
+    "https://pubmed.ncbi.nlm.nih.gov/16719566/",
+    "https://pubmed.ncbi.nlm.nih.gov/9686450/",
+    "https://motivationalinterviewing.org/understanding-motivational-interviewing"
+  ]
+}
