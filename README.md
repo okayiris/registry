@@ -14,6 +14,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 |---|---|---|---|
 | [acting-on-behalf](skills/acting-on-behalf) | How an assistant writes, sends, posts and calls in its owner's name - what always waits for a yes, what counts as one, how to draft in the owner's voice, and what never goes out. | Iris | CC-BY-4.0 |
 | [asking-good-questions](skills/asking-good-questions) | How a personal assistant asks its owner questions - when to ask and when to just act, one open question at a time, reflecting back, offering information with permission, asking the hard question, and knowing when to stop. | Iris | CC-BY-4.0 |
+| [building-habits](skills/building-habits) | How a personal assistant helps its owner build a new habit - one small daily action tied to a fixed moment, repeated until it runs by itself, tracked without guilt, and restarted after a miss. | Iris | CC-BY-4.0 |
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills and MCP servers, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 
 ## MCP servers

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T08:40:50.035Z",
+  "updated": "2026-09-28T08:40:55.707Z",
   "skills": [
     {
       "kind": "skill",
@@ -61,6 +61,31 @@
       ],
       "hash": "992199210e34f11a6ea8e48623922d596143d868b225b74f11195f7075951458",
       "published": 1790584815810
+    },
+    {
+      "kind": "skill",
+      "name": "building-habits",
+      "version": "1.0.0",
+      "author": "Iris",
+      "description": "How a personal assistant helps its owner build a new habit - one small daily action tied to a fixed moment, repeated until it runs by itself, tracked without guilt, and restarted after a miss.",
+      "license": "CC-BY-4.0",
+      "tags": [
+        "habits",
+        "health",
+        "behaviour-change",
+        "personal"
+      ],
+      "permissions": [],
+      "sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/",
+        "https://pubmed.ncbi.nlm.nih.gov/23211256/",
+        "https://www.thuisarts.nl/stress/ik-wil-beter-omgaan-met-stress"
+      ],
+      "versions": [
+        "1.0.0"
+      ],
+      "hash": "4b1321d06437b21999558aff2d5f5ac2d4e44655e3fccf4b88837967610cbdae",
+      "published": 1790584816469
     },
     {
       "kind": "skill",
