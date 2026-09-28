@@ -1,0 +1,27 @@
+{
+  "name": "git-workflow",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "How an assistant works with Git and GitHub for its owner - branches, small commits with good messages, pull requests, reviews and merging, never force-pushing shared branches, keeping secrets out, and waiting for the owner's yes before anything is written.",
+  "tags": [
+    "git",
+    "github",
+    "developer",
+    "pull-requests",
+    "code-review",
+    "security"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://plugins.okayiris.com/apps/github",
+    "https://git-scm.com/book/en/v2/Distributed-Git-Contributing-to-a-Project",
+    "https://git-scm.com/book/en/v2/Git-Branching-Rebasing",
+    "https://git-scm.com/docs/git-push",
+    "https://docs.github.com/en/pull-requests/reference/pull-requests",
+    "https://docs.github.com/en/pull-requests/reference/pull-request-reviews",
+    "https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/about-merge-methods-on-github",
+    "https://docs.github.com/en/code-security/concepts/secret-security/push-protection",
+    "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository"
+  ]
+}
