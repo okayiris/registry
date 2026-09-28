@@ -1,0 +1,31 @@
+{
+  "name": "toeslagen",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Dutch allowances (toeslagen) in 2026 - zorgtoeslag, huurtoeslag, kinderopvangtoeslag and kindgebonden budget, who can get them, the 2026 limits, applying and passing on changes, paying back and how to avoid it, deadlines and where to get help.",
+  "tags": [
+    "toeslagen",
+    "allowances",
+    "nl",
+    "finance",
+    "housing",
+    "childcare",
+    "healthcare"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0018472&g=2026-09-28",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen-2026/topics/veranderingen-toeslagen-2026",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/huurtoeslag/content/kan-ik-huurtoeslag-krijgen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/zorgtoeslag/content/kan-ik-zorgtoeslag-krijgen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/kindgebonden-budget/content/kan-ik-kindgebonden-budget-krijgen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/kinderopvangtoeslag/content/kan-ik-kinderopvangtoeslag-krijgen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslagen/content/tot-wanneer-kan-ik-toeslag-aanvragen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/wijzigingen_doorgeven/wijzigingen_doorgeven",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslag-terugbetalen/content/toeslag-terugbetalen-na-definitieve-berekening",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/toeslag-terugbetalen/content/kan-ik-een-betalingsregeling-krijgen",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/toeslagen/hoe_werken_toeslagen/niet_met_ons_eens_toeslagen/bezwaar_maken/ik_wil_bezwaar_maken",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/contact-met-dienst-toeslagen/content/kan-ik-hulp-krijgen-bij-het-regelen-van-mijn-toeslag"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "starting-as-zzp",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Starting as a zzp'er in the Netherlands - KVK registration, what the Belastingdienst does after, the hours criterion for the entrepreneur deductions, disability insurance and pension, false self-employment rules as of 2026, and record keeping.",
+  "tags": [
+    "zzp",
+    "nl",
+    "starting-a-business",
+    "tax",
+    "self-employment",
+    "finance"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://ondernemersplein.kvk.nl/inschrijven-bij-kvk/",
+    "https://www.kvk.nl/starten/moet-ik-mijn-bedrijf-inschrijven-bij-kvk/",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/ondernemen/onderneming_starten/schrijf-uw-onderneming-in/",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/wanneer_bent_u_ondernemer_voor_de_inkomstenbelasting/wanneer_bent_u_ondernemer_voor_de_inkomstenbelasting",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/winst/inkomstenbelasting/inkomstenbelasting_voor_ondernemers/voorwaarden_urencriterium",
+    "https://wetten.overheid.nl/jci1.3:c:BWBR0011353&g=2026-09-28",
+    "https://www.belastingdienst.nl/wps/wcm/connect/nl/arbeidsrelaties/content/handhaving",
+    "https://ondernemersplein.overheid.nl/bedrijf-starten/starten-als-zzper/schijnzelfstandigheid-voorkomen-met-dba-voor-zzpers/",
+    "https://zoek.officielebekendmakingen.nl/stb-2026-158.html",
+    "https://ondernemersplein.overheid.nl/wetswijzigingen/zelfstandigen-verplicht-verzekerd-tegen-arbeidsongeschiktheid/",
+    "https://ondernemersplein.overheid.nl/geldzaken-en-belastingen/pensioen/als-zzper-pensioen-opbouwen/",
+    "https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/ondernemen/onderneming_starten/houd-een-goede-administratie-bij/"
+  ]
+}
