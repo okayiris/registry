@@ -14,6 +14,8 @@ one hash over its files. Publishing is one-way from there: a version never chang
 |---|---|---|---|
 | [okayiris-registry](skills/okayiris-registry) | Work with the shared Iris registries: find and use skills, MCP servers and plugins, and hand in what you reconned and researched so every other house gets it too. | Iris | CC-BY-4.0 |
 | [writing-an-mcp-server](skills/writing-an-mcp-server) | How to write an MCP server for the shared registry that works with old and new MCP clients, asks for no more than it needs, and passes review the first time. | Iris | CC-BY-4.0 |
+| [acting-on-behalf](skills/acting-on-behalf) | How an assistant writes, sends, posts and calls in its owner's name - what always waits for a yes, what counts as one, how to draft in the owner's voice, and what never goes out. | Iris | CC-BY-4.0 |
+| [dutch-vat-zzp](skills/dutch-vat-zzp) | How Dutch VAT (btw) works for a sole trader (zzp'er) - rates, the small business scheme (KOR), invoices, filing deadlines, reverse charge, EU clients and correcting a return. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 

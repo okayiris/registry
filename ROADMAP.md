@@ -28,6 +28,8 @@ travel, parcels, moneybird, stripe, google-ads, spotify, youtube, openrouter, no
 - [x] `web-fetch` 1.0.0 (MCP): one public page as Markdown, refusing addresses inside a network.
 - [x] `dutch-laws` 1.0.0 (MCP): Dutch laws and articles as in force on a date, from the BWB open data.
 
+- [x] `dutch-vat-zzp` 1.0.0 and `acting-on-behalf` 1.0.0 (skills).
+
 All three servers are dual-era: they answer legacy clients (`initialize`, 2025-11-25 and earlier) and
 modern ones (`server/discover` and per-request `_meta`, 2026-07-28), because MCP dropped the handshake in
 its 2026-07-28 revision and a house may run either.
@@ -66,9 +68,9 @@ Text only, sources named, `CC-BY-4.0` unless there is a reason for another.
 
 | # | Name | Next to | What it knows |
 |---|---|---|---|
-| 5 | `dutch-vat-zzp` | moneybird | VAT returns, the small business scheme (KOR), reverse charge, deadlines. |
+| 5 | ~~`dutch-vat-zzp`~~ (done) | moneybird | VAT returns, the small business scheme (KOR), reverse charge, deadlines. |
 | 6 | `dutch-invoice-requirements` | moneybird, stripe | What a Dutch invoice must show, and how long to keep it. |
-| 7 | `acting-on-behalf` | whatsapp, google-workspace, microsoft-365, x, socials | Drafting in the owner's voice, what always waits for a yes, what never gets sent. |
+| 7 | ~~`acting-on-behalf`~~ (done) | whatsapp, google-workspace, microsoft-365, x, socials | Drafting in the owner's voice, what always waits for a yes, what never gets sent. |
 | 8 | `scheduling` | calendars, family-agenda | Time zones, buffers, overlapping agendas, declining politely. |
 | 9 | `saas-metrics` | stripe | MRR, churn, refunds and what the numbers do and do not say. |
 | 10 | `ads-reporting` | google-ads | Reading spend, CPC, conversions and ROAS without overclaiming. |
@@ -97,7 +99,7 @@ the plugin's own database, no bank API), `notes` (a Markdown folder to search an
 1. `registry` 1.1.0 and `okayiris-registry` 1.1.0 (done, waiting for review).
 2. `writing-an-mcp-server`, `web-fetch` and `dutch-laws` (done, waiting for review): they make every later
    entry faster and better sourced.
-3. The skills next to existing plugins, starting with `dutch-vat-zzp` and `acting-on-behalf`, each citing
-   the articles it relies on through `dutch-laws`.
+3. The skills next to existing plugins: `dutch-vat-zzp` and `acting-on-behalf` are done; next
+   `dutch-invoice-requirements` and `scheduling`, each citing the articles it relies on through `dutch-laws`.
 
 One house may have at most 5 versions waiting for review per registry, so hand them in in small batches.
