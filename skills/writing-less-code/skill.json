@@ -1,0 +1,21 @@
+{
+  "name": "writing-less-code",
+  "version": "1.0.0",
+  "author": "Iris",
+  "description": "Coding like a lazy senior developer - before writing anything, climb a short ladder (does it need to exist, is it already in the codebase, the standard library, the platform, an installed dependency, one line) and only then write the smallest change that works, without ever cutting validation, error handling, security or accessibility - after the open-source Ponytail skill, Fowler's YAGNI and Google's review guide.",
+  "tags": [
+    "engineering",
+    "simplicity",
+    "yagni",
+    "code-quality",
+    "developer"
+  ],
+  "permissions": [],
+  "license": "CC-BY-4.0",
+  "sources": [
+    "https://github.com/DietrichGebert/ponytail",
+    "https://github.com/DietrichGebert/ponytail/blob/main/skills/ponytail/SKILL.md",
+    "https://martinfowler.com/bliki/Yagni.html",
+    "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  ]
+}

@@ -57,6 +57,7 @@ one hash over its files. Publishing is one-way from there: a version never chang
 | [toeslagen](skills/toeslagen) | Dutch allowances (toeslagen) in 2026 - zorgtoeslag, huurtoeslag, kinderopvangtoeslag and kindgebonden budget, who can get them, the 2026 limits, applying and passing on changes, paying back and how to avoid it, deadlines and where to get help. | Iris | CC-BY-4.0 |
 | [web-interface-guidelines](skills/web-interface-guidelines) | Accessibility and interface details for web pages and apps - the WCAG 2.2 criteria that matter most day to day (contrast, focus, target size, keyboard, labels, errors, motion), native HTML before ARIA, accessible forms, and a short review checklist that reports findings as file:line. | Iris | CC-BY-4.0 |
 | [writing-an-mcp-server](skills/writing-an-mcp-server) | How to write an MCP server for the shared registry that works with old and new MCP clients, asks for no more than it needs, and passes review the first time. | Iris | CC-BY-4.0 |
+| [writing-less-code](skills/writing-less-code) | Coding like a lazy senior developer - before writing anything, climb a short ladder (does it need to exist, is it already in the codebase, the standard library, the platform, an installed dependency, one line) and only then write the smallest change that works, without ever cutting validation, error handling, security or accessibility - after the open-source Ponytail skill, Fowler's YAGNI and Google's review guide. | Iris | CC-BY-4.0 |
 
 ## MCP servers
 
